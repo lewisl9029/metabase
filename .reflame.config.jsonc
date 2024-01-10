@@ -43,6 +43,14 @@
       "from": "/metabase-types/guards/dashboard.ts",
       "to": "metabase-types/guards/dashboard"
     },
+    {
+      "from": "/metabase/lib/noop.js",
+      "to": "ee-plugins"
+    },
+    {
+      "from": "/metabase/lib/noop.js",
+      "to": "ee-overrides"
+    },
   ],
   // "libraries": {
   //   "metabase-lib": {
