@@ -8,14 +8,14 @@ import slugg from "slugg";
 import * as ace from "ace-builds/src-noconflict/ace";
 import type { Ace } from "ace-builds";
 
-import "ace/ace";
-import "ace/ext-language_tools";
-import "ace/ext-searchbox";
-import "ace/mode-sql";
-import "ace/mode-json";
-import "ace/snippets/text";
-import "ace/snippets/sql";
-import "ace/snippets/json";
+import "ace-builds/src-noconflict/ace";
+import "ace-builds/src-noconflict/ext-language_tools";
+import "ace-builds/src-noconflict/ext-searchbox";
+import "ace-builds/src-noconflict/mode-sql";
+import "ace-builds/src-noconflict/mode-json";
+import "ace-builds/src-noconflict/snippets/text";
+import "ace-builds/src-noconflict/snippets/sql";
+import "ace-builds/src-noconflict/snippets/json";
 
 import { Flex } from "metabase/ui";
 import ExplicitSize from "metabase/components/ExplicitSize";

@@ -3,7 +3,7 @@ import _ from "underscore";
 import { connect } from "react-redux";
 
 import { t } from "ttag";
-import Radio from "metabase/core/components/Radio/";
+import Radio from "metabase/core/components/Radio";
 import CheckBox from "metabase/core/components/CheckBox";
 import Select from "metabase/core/components/Select";
 import Toggle from "metabase/core/components/Toggle";
