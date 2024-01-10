@@ -10,29 +10,49 @@
   "description": "A new Reflame app.",
   // Reflame will watch this directory for your React source code and deploy changes
   // instantly. 
-  "sourceDirectory": "frontend/src/metabase",
+  "sourceDirectory": "frontend/src",
   // Reflame will use this to keep your app up to date as we make improvements. 
   "foundation": {
     "name": "ts-react",
     "version": 2,
   },
   "scripts": [
-    "/app-main.js"
+    "/metabase/app-main.js"
   ],
   "nodejsCompatibility": {
     "packageJson": true,
   },
-  // FIXME: still hanging?
   "specifierTransforms": [
     {
-      "from": "/",
+      "from": "/metabase/",
       "to": "metabase/"
     },
     {
-      "from": "/dev-noop.js",
+      "from": "/metabase/dev-noop.js",
       "to": "metabase-dev"
-    }
+    },
+    {
+      "from": "/metabase-lib/",
+      "to": "metabase-lib/"
+    },
+    {
+      "from": "/metabase-lib/index.ts",
+      "to": "metabase-lib"
+    },
+    {
+      "from": "/metabase-types/guards/dashboard.ts",
+      "to": "metabase-types/guards/dashboard"
+    },
   ],
+  // "libraries": {
+  //   "metabase-lib": {
+  //     "sourceDirectory": "frontend/src/metabase-lib",
+  //     "exports": {
+  //       ".": "./index.ts",
+  //       "./*": "./*"
+  //     }
+  //   }
+  // },
   // NPM packages listed here will be installed by Reflame every time you update this file.
   // 
   // It's important to only include packages that will be used by your app in browsers here.
