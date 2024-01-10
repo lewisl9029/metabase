@@ -59,6 +59,41 @@
   // Including dev-time dependencies that run in node can result in deploy failures and poor
   // performance.
   "npmPackages": {
+    "dayjs": {
+      "entryPoints": [
+        "/plugin/updateLocale",
+        "/plugin/customParseFormat",
+        "/plugin/isoWeek",
+        "/plugin/quarterOfYear",
+        "/"
+      ]
+    },
+    "ace-builds": {
+      "entryPoints": [
+        "/src-noconflict/mode-java",
+        "/src-noconflict/ace",
+        "/"
+      ]
+    },
+    "leaflet": {
+      "entryPoints": [
+        "/dist/leaflet-src.js",
+        "/dist/leaflet.css",
+        "/"
+      ]
+    },
+    "react-resizable": {
+      "entryPoints": [
+        "/css/styles.css",
+        "/"
+      ]
+    },
+    "react-grid-layout": {
+      "entryPoints": [
+        "/css/styles.css",
+        "/"
+      ]
+    }
     // // Specify npm packages in the same format as you would with package.json
     // "framer-motion": "^6.2.8",
   },
