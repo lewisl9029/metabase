@@ -78,6 +78,18 @@
     },
     "ace-builds": {
       "entryPoints": [
+        "/src-noconflict/mode-clojure",
+        "/src-noconflict/mode-javascript",
+        "/src-noconflict/mode-ruby",
+        "/src-noconflict/mode-html",
+        "/src-noconflict/mode-jsx",
+        "/src-noconflict/ext-language_tools",
+        "/src-noconflict/ext-searchbox",
+        "/src-noconflict/mode-sql",
+        "/src-noconflict/mode-json",
+        "/src-noconflict/snippets/text",
+        "/src-noconflict/snippets/sql",
+        "/src-noconflict/snippets/json",
         "/src-noconflict/mode-java",
         "/src-noconflict/ace",
         "/"
