@@ -1,0 +1,2 @@
+var window=global;var $CLJS=require("./cljs_env.js");require("./cljs.core.js");require("./borkdude.dynaload.js");
+'use strict';$CLJS.$k=new $CLJS.r("sci.core","init","sci.core/init",-622666095,null);$CLJS.al=new $CLJS.r("sci.core","fork","sci.core/fork",-1806691042,null);$CLJS.bl=new $CLJS.r("sci.core","eval-string*","sci.core/eval-string*",2134763594,null);

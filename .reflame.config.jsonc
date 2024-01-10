@@ -58,6 +58,12 @@
       "exports": {
         "./*": "./*"
       }
+    },
+    "cljs": {
+      "sourceDirectory": "__generated/cljs",
+      "exports": {
+        "./*": "./*"
+      }
     }
   },
   // NPM packages listed here will be installed by Reflame every time you update this file.
