@@ -40,8 +40,8 @@
       "to": "metabase-lib"
     },
     {
-      "from": "/metabase-types/guards/dashboard.ts",
-      "to": "metabase-types/guards/dashboard"
+      "from": "/metabase-types/",
+      "to": "metabase-types/"
     },
     {
       "from": "/metabase/lib/noop.js",
