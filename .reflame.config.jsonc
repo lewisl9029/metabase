@@ -52,15 +52,14 @@
       "to": "ee-overrides"
     },
   ],
-  // "libraries": {
-  //   "metabase-lib": {
-  //     "sourceDirectory": "frontend/src/metabase-lib",
-  //     "exports": {
-  //       ".": "./index.ts",
-  //       "./*": "./*"
-  //     }
-  //   }
-  // },
+  "libraries": {
+    "assets": {
+      "sourceDirectory": "resources/frontend_client/app/assets",
+      "exports": {
+        "./*": "./*"
+      }
+    }
+  },
   // NPM packages listed here will be installed by Reflame every time you update this file.
   // 
   // It's important to only include packages that will be used by your app in browsers here.
