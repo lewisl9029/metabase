@@ -77,6 +77,7 @@
     },
     "ace-builds": {
       "entryPoints": [
+        "/src-noconflict/mode-plain_text",
         "/src-noconflict/mode-clojure",
         "/src-noconflict/mode-javascript",
         "/src-noconflict/mode-ruby",
