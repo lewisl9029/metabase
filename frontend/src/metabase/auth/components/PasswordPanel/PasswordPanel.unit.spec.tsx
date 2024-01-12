@@ -10,8 +10,8 @@ import {
   setupCurrentUserEndpoint,
   setupLoginEndpoint,
   setupPropertiesEndpoints,
-} from "__support__/server-mocks";
-import { renderWithProviders, screen, waitFor } from "__support__/ui";
+} from "support__/server-mocks";
+import { renderWithProviders, screen, waitFor } from "support__/ui";
 import { createMockSettings, createMockUser } from "metabase-types/api/mocks";
 import { PasswordPanel } from "./PasswordPanel";
 

@@ -1,12 +1,12 @@
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 import { createMockRecentItem } from "metabase-types/api/mocks";
-import { setupRecentViewsEndpoints } from "__support__/server-mocks";
+import { setupRecentViewsEndpoints } from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "__support__/ui";
+} from "support__/ui";
 import { useRecentItemListQuery } from "./use-recent-item-list-query";
 
 const TEST_ITEM = createMockRecentItem();

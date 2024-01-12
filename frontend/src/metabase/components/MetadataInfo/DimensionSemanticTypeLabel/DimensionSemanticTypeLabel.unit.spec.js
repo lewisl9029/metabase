@@ -1,5 +1,5 @@
-import { renderWithProviders, screen, getIcon } from "__support__/ui";
-import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders, screen, getIcon } from "support__/ui";
+import { createMockEntitiesState } from "support__/store";
 import { getMetadata } from "metabase/selectors/metadata";
 import {
   createSampleDatabase,

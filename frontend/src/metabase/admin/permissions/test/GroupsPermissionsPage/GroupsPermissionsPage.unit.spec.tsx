@@ -5,7 +5,7 @@ import {
   screen,
   fireEvent,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import DataPermissionsPage from "metabase/admin/permissions/pages/DataPermissionsPage/DataPermissionsPage";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 import { createMockPermissionsGraph } from "metabase-types/api/mocks/permissions";
@@ -14,11 +14,11 @@ import {
   setupDatabasesEndpoints,
   setupPermissionsGraphEndpoint,
   setupGroupsEndpoint,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import { PLUGIN_ADMIN_PERMISSIONS_TABLE_ROUTES } from "metabase/plugins";
 import GroupsPermissionsPage from "metabase/admin/permissions/pages/GroupDataPermissionsPage/GroupsPermissionsPage";
 import { delay } from "metabase/lib/promise";
-import { callMockEvent } from "__support__/events";
+import { callMockEvent } from "support__/events";
 import { BEFORE_UNLOAD_UNSAVED_MESSAGE } from "metabase/hooks/use-before-unload";
 
 const TEST_DATABASE = createSampleDatabase();

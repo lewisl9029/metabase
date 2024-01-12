@@ -5,13 +5,13 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import {
   setupCardsEndpoints,
   setupCollectionsEndpoints,
   setupDatabasesEndpoints,
-} from "__support__/server-mocks";
-import { createMockEntitiesState } from "__support__/store";
+} from "support__/server-mocks";
+import { createMockEntitiesState } from "support__/store";
 
 import * as Urls from "metabase/lib/urls";
 

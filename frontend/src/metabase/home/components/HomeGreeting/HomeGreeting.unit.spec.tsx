@@ -1,4 +1,4 @@
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import type { User } from "metabase-types/api";
 import { createMockUser } from "metabase-types/api/mocks";
 import {

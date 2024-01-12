@@ -1,11 +1,11 @@
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
-import { setupDatabasesEndpoints } from "__support__/server-mocks";
+import { setupDatabasesEndpoints } from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import { useDatabaseIdFieldListQuery } from "./use-database-id-field-list-query";
 
 const TEST_DB = createSampleDatabase();

@@ -1,4 +1,4 @@
-import { renderWithProviders } from "__support__/ui";
+import { renderWithProviders } from "support__/ui";
 import "mutationobserver-shim";
 import EntityListLoader from "metabase/entities/containers/EntityListLoader";
 import { Api } from "metabase/lib/api";

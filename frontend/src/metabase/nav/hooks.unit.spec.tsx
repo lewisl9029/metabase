@@ -1,7 +1,7 @@
-import { renderWithProviders, screen } from "__support__/ui";
-import { setupEnterpriseTest } from "__support__/enterprise";
-import { mockSettings } from "__support__/settings";
-import { setupDatabasesEndpoints } from "__support__/server-mocks";
+import { renderWithProviders, screen } from "support__/ui";
+import { setupEnterpriseTest } from "support__/enterprise";
+import { mockSettings } from "support__/settings";
+import { setupDatabasesEndpoints } from "support__/server-mocks";
 import {
   createMockDatabase,
   createMockTokenStatus,

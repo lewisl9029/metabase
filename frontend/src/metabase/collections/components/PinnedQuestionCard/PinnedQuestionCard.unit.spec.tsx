@@ -9,11 +9,11 @@ import { ROOT_COLLECTION } from "metabase/entities/collections";
 import {
   setupCardEndpoints,
   setupCardQueryEndpoints,
-} from "__support__/server-mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+} from "support__/server-mocks";
+import { renderWithProviders, screen } from "support__/ui";
 import registerVisualizations from "metabase/visualizations/register";
 import { createMockState } from "metabase-types/store/mocks";
-import { createMockEntitiesState } from "__support__/store";
+import { createMockEntitiesState } from "support__/store";
 import PinnedQuestionCard from "./PinnedQuestionCard";
 
 registerVisualizations();

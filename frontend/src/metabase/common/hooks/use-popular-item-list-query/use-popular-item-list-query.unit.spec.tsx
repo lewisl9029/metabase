@@ -1,12 +1,12 @@
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 import { createMockPopularItem } from "metabase-types/api/mocks";
-import { setupPopularItemsEndpoints } from "__support__/server-mocks";
+import { setupPopularItemsEndpoints } from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "__support__/ui";
+} from "support__/ui";
 import { usePopularItemListQuery } from "./use-popular-item-list-query";
 
 const TEST_ITEM = createMockPopularItem();

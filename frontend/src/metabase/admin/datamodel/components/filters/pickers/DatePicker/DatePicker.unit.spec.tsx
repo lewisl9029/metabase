@@ -2,7 +2,7 @@ import { useState } from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
-import { createMockMetadata } from "__support__/metadata";
+import { createMockMetadata } from "support__/metadata";
 import { checkNotNull } from "metabase/lib/types";
 
 import {

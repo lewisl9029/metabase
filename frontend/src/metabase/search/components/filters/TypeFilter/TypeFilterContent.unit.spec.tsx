@@ -5,12 +5,12 @@ import {
   within,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import {
   createMockDatabase,
   createMockSearchResult,
 } from "metabase-types/api/mocks";
-import { setupSearchEndpoints } from "__support__/server-mocks";
+import { setupSearchEndpoints } from "support__/server-mocks";
 import type {
   EnabledSearchModelType,
   SearchModelType,

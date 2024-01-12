@@ -1,12 +1,12 @@
 import type { Store } from "@reduxjs/toolkit";
 import _ from "underscore";
 
-import { getStore } from "__support__/entities-store";
+import { getStore } from "support__/entities-store";
 import {
   setupCardsEndpoints,
   setupCardQueryEndpoints,
   setupDatabasesEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 
 import { checkNotNull } from "metabase/lib/types";
 

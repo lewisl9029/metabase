@@ -1,6 +1,6 @@
-import { renderWithProviders, screen } from "__support__/ui";
-import { setupCollectionsEndpoints } from "__support__/server-mocks";
-import { callMockEvent } from "__support__/events";
+import { renderWithProviders, screen } from "support__/ui";
+import { setupCollectionsEndpoints } from "support__/server-mocks";
+import { callMockEvent } from "support__/events";
 import { createMockCollection, createMockUser } from "metabase-types/api/mocks";
 
 import { createMockState, createMockUpload } from "metabase-types/store/mocks";

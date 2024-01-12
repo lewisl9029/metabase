@@ -7,12 +7,12 @@ import {
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import {
   setupCardsEndpoints,
   setupDatabasesEndpoints,
   setupModelActionsEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 
 import type { Card, WritebackAction } from "metabase-types/api";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";

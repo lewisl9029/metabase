@@ -6,7 +6,7 @@ import {
   getNativeEditorSelectedText,
   getQuestionDetailsTimelineDrawerState,
 } from "metabase/query_builder/selectors";
-import { createMockEntitiesState } from "__support__/store";
+import { createMockEntitiesState } from "support__/store";
 import { createMockTable } from "metabase-types/api/mocks";
 import {
   createSampleDatabase,

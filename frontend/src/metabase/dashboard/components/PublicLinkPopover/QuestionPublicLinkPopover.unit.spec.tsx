@@ -1,14 +1,14 @@
 import { useState } from "react";
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { createMockState } from "metabase-types/store/mocks";
 import { createMockCard, createMockUser } from "metabase-types/api/mocks";
-import { createMockEntitiesState } from "__support__/store";
+import { createMockEntitiesState } from "support__/store";
 import { getMetadata } from "metabase/selectors/metadata";
 import { checkNotNull } from "metabase/lib/types";
-import { setupCardPublicLinkEndpoints } from "__support__/server-mocks";
-import { mockSettings } from "__support__/settings";
+import { setupCardPublicLinkEndpoints } from "support__/server-mocks";
+import { mockSettings } from "support__/settings";
 import type Question from "metabase-lib/Question";
 import { QuestionPublicLinkPopover } from "./QuestionPublicLinkPopover";
 

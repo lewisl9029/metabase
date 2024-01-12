@@ -1,10 +1,10 @@
-import "__support__/ui-mocks";
+import "support__/ui-mocks";
 
 import { screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
-import { createMockMetadata } from "__support__/metadata";
-import { renderWithProviders } from "__support__/ui";
+import { createMockMetadata } from "support__/metadata";
+import { renderWithProviders } from "support__/ui";
 import {
   createSampleDatabase,
   SAMPLE_DB_ID,

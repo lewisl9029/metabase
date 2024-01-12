@@ -1,12 +1,12 @@
 import fetchMock from "fetch-mock";
 
-import { setupActionsEndpoints } from "__support__/server-mocks";
+import { setupActionsEndpoints } from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import {
   createMockActionParameter,
   createMockImplicitQueryAction,

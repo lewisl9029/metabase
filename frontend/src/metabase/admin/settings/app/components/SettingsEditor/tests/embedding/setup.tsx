@@ -6,7 +6,7 @@ import {
   createMockTokenFeatures,
 } from "metabase-types/api/mocks";
 import { checkNotNull } from "metabase/lib/types";
-import { screen } from "__support__/ui";
+import { screen } from "support__/ui";
 import { setup } from "../setup";
 
 export type SetupOpts = {

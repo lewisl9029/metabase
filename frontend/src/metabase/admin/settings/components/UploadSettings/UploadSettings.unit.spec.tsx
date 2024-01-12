@@ -5,9 +5,9 @@ import { getMetadata } from "metabase/selectors/metadata";
 import type { Database } from "metabase-types/api";
 import { createMockDatabase, createMockTable } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
-import { createMockEntitiesState } from "__support__/store";
-import { renderWithProviders, screen, waitFor } from "__support__/ui";
-import { setupSchemaEndpoints } from "__support__/server-mocks";
+import { createMockEntitiesState } from "support__/store";
+import { renderWithProviders, screen, waitFor } from "support__/ui";
+import { setupSchemaEndpoints } from "support__/server-mocks";
 
 import type { UploadSettings } from "./UploadSettings";
 import { UploadSettingsView } from "./UploadSettings";

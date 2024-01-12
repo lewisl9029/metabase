@@ -1,11 +1,11 @@
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
 
-import { renderWithProviders, screen, waitFor } from "__support__/ui";
-import { setupEnterpriseTest } from "__support__/enterprise";
-import { mockSettings } from "__support__/settings";
-import { setupCollectionsEndpoints } from "__support__/server-mocks";
-import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders, screen, waitFor } from "support__/ui";
+import { setupEnterpriseTest } from "support__/enterprise";
+import { mockSettings } from "support__/settings";
+import { setupCollectionsEndpoints } from "support__/server-mocks";
+import { createMockEntitiesState } from "support__/store";
 
 import { createMockCollection } from "metabase-types/api/mocks";
 import { ROOT_COLLECTION } from "metabase/entities/collections";

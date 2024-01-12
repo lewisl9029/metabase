@@ -4,7 +4,7 @@ import {
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import { RELOAD_INTERVAL } from "../../constants";
 import TableBrowser from "./TableBrowser";
 

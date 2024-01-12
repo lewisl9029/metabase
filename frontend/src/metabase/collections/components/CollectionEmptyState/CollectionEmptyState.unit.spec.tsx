@@ -1,4 +1,4 @@
-import { screen, renderWithProviders } from "__support__/ui";
+import { screen, renderWithProviders } from "support__/ui";
 import type { Collection } from "metabase-types/api";
 import {
   createMockCollection,
@@ -8,7 +8,7 @@ import {
 import {
   setupDatabasesEndpoints,
   setupSearchEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 
 import CollectionEmptyState from "metabase/collections/components/CollectionEmptyState";
 

@@ -1,5 +1,5 @@
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import type { RelativeIntervalDirection } from "../../types";
 import type { DateIntervalValue } from "../types";
 import { DateIntervalPicker } from "./DateIntervalPicker";

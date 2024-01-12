@@ -4,8 +4,8 @@ import {
   createMockSettingsState,
   createMockState,
 } from "metabase-types/store/mocks";
-import { setupForgotPasswordEndpoint } from "__support__/server-mocks";
-import { renderWithProviders, screen, waitFor } from "__support__/ui";
+import { setupForgotPasswordEndpoint } from "support__/server-mocks";
+import { renderWithProviders, screen, waitFor } from "support__/ui";
 import { ForgotPassword } from "./ForgotPassword";
 
 const TEST_EMAIL = "user@metabase.test";

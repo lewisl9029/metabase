@@ -3,8 +3,8 @@ import {
   setupDatabaseEndpoints,
   setupTableEndpoints,
   setupUsersEndpoints,
-} from "__support__/server-mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+} from "support__/server-mocks";
+import { renderWithProviders, screen } from "support__/ui";
 import type { InitialSyncStatus } from "metabase-types/api";
 import {
   createMockDatabase,

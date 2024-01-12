@@ -6,13 +6,13 @@ import {
   within,
   waitForLoaderToBeRemoved,
   waitFor,
-} from "__support__/ui";
+} from "support__/ui";
 import {
   setupCollectionsEndpoints,
   setupRecentViewsEndpoints,
   setupSearchEndpoints,
   setupUserRecipientsEndpoint,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   createMockCollectionItem,
   createMockModelObject,

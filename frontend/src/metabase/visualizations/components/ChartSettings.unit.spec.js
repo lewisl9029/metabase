@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import registerVisualizations from "metabase/visualizations/register";
-import { renderWithProviders, fireEvent, screen } from "__support__/ui";
+import { renderWithProviders, fireEvent, screen } from "support__/ui";
 import {
   createMockCard,
   createMockDashboardCard,

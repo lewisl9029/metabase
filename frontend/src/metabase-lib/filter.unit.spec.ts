@@ -7,7 +7,7 @@ import {
   createSampleDatabase,
   PEOPLE_ID,
 } from "metabase-types/api/mocks/presets";
-import { createMockMetadata } from "__support__/metadata";
+import { createMockMetadata } from "support__/metadata";
 import * as Lib from "metabase-lib";
 import {
   columnFinder,

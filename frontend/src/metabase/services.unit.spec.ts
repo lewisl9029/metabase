@@ -1,5 +1,5 @@
 import fetchMock from "fetch-mock";
-import { createMockEntitiesState } from "__support__/store";
+import { createMockEntitiesState } from "support__/store";
 
 import { defer } from "metabase/lib/promise";
 import { getMetadata } from "metabase/selectors/metadata";

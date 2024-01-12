@@ -2,12 +2,12 @@ import { createMockDashboard } from "metabase-types/api/mocks";
 import {
   setupDashboardEndpoints,
   setupDashboardNotFoundEndpoint,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 import { useDashboardQuery } from "./use-dashboard-query";
 

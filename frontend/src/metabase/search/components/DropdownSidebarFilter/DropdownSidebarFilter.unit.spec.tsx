@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import userEvent from "@testing-library/user-event";
 import { useState } from "react";
-import { renderWithProviders, screen, within } from "__support__/ui";
+import { renderWithProviders, screen, within } from "support__/ui";
 import type { SearchFilterComponent } from "metabase/search/types";
 import type { DropdownSidebarFilterProps } from "./DropdownSidebarFilter";
 import { DropdownSidebarFilter } from "./DropdownSidebarFilter";

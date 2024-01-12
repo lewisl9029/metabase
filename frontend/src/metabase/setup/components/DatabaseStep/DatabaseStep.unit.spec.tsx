@@ -5,7 +5,7 @@ import {
   createMockSetupState,
   createMockState,
 } from "metabase-types/store/mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { DATABASE_STEP, PREFERENCES_STEP } from "../../constants";
 import { DatabaseStep } from "./DatabaseStep";
 

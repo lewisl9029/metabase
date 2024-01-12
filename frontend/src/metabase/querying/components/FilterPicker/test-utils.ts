@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 import dayjs from "dayjs";
-import { createMockEntitiesState } from "__support__/store";
+import { createMockEntitiesState } from "support__/store";
 import { checkNotNull } from "metabase/lib/types";
 import { getMetadata } from "metabase/selectors/metadata";
 import { createMockField, createMockSegment } from "metabase-types/api/mocks";

@@ -1,6 +1,6 @@
 import { Route } from "react-router";
 
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 
 import { createMockState } from "metabase-types/store/mocks";
 import {
@@ -8,8 +8,8 @@ import {
   createMockTokenStatus,
   createMockUser,
 } from "metabase-types/api/mocks";
-import { setupDatabasesEndpoints } from "__support__/server-mocks";
-import { mockSettings } from "__support__/settings";
+import { setupDatabasesEndpoints } from "support__/server-mocks";
+import { mockSettings } from "support__/settings";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 import type { TokenStatusStatus } from "metabase-types/api";
 

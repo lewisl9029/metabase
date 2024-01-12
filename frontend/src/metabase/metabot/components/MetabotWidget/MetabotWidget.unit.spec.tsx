@@ -11,12 +11,12 @@ import {
   setupCardsEndpoints,
   setupDatabasesEndpoints,
   setupSearchEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import MetabotWidget from "./MetabotWidget";
 
 const TEST_DATABASE = createMockDatabase({

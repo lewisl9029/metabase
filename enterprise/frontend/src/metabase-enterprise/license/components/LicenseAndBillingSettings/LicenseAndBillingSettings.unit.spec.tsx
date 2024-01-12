@@ -1,7 +1,7 @@
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
 
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { createMockAdminState } from "metabase-types/store/mocks";
 
 import LicenseAndBillingSettings from "./LicenseAndBillingSettings";

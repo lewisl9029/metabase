@@ -1,9 +1,9 @@
-import { setupActionsEndpoints } from "__support__/server-mocks";
+import { setupActionsEndpoints } from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import { createMockImplicitQueryAction } from "metabase-types/api/mocks";
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 

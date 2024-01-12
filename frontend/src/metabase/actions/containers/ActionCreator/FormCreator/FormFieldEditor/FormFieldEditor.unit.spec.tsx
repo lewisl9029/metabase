@@ -7,7 +7,7 @@ import {
   screen,
   waitFor,
   within,
-} from "__support__/ui";
+} from "support__/ui";
 import { FormProvider } from "metabase/forms";
 import { getDefaultFieldSettings } from "metabase/actions/utils";
 import type { FieldSettings } from "metabase-types/api";

@@ -6,7 +6,7 @@ import {
 } from "metabase/visualizations/lib/timeseries";
 import { getVisualizationTransformed } from "metabase/visualizations";
 
-import { StringColumn, NumberColumn } from "__support__/visualizations";
+import { StringColumn, NumberColumn } from "support__/visualizations";
 import registerVisualizations from "metabase/visualizations/register";
 import { TYPE } from "metabase-lib/types/constants";
 

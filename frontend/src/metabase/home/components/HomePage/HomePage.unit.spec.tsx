@@ -5,14 +5,14 @@ import {
   createMockState,
 } from "metabase-types/store/mocks";
 import { createMockDashboard, createMockUser } from "metabase-types/api/mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import {
   setupDashboardEndpoints,
   setupDatabasesEndpoints,
   setupPopularItemsEndpoints,
   setupRecentViewsEndpoints,
   setupSearchEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import { HomePage } from "./HomePage";
 
 const TEST_USER_NAME = "Testy";

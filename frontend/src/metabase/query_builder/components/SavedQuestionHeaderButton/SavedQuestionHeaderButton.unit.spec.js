@@ -1,9 +1,9 @@
 import userEvent from "@testing-library/user-event";
 
-import { setupEnterpriseTest } from "__support__/enterprise";
-import { createMockMetadata } from "__support__/metadata";
+import { setupEnterpriseTest } from "support__/enterprise";
+import { createMockMetadata } from "support__/metadata";
 import { createMockCollection } from "metabase-types/api/mocks";
-import { renderWithProviders, screen, getIcon } from "__support__/ui";
+import { renderWithProviders, screen, getIcon } from "support__/ui";
 
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 import Question from "metabase-lib/Question";

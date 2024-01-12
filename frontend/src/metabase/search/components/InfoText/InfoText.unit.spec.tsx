@@ -7,8 +7,8 @@ import {
   setupTableEndpoints,
   setupUserRecipientsEndpoint,
   setupUsersEndpoints,
-} from "__support__/server-mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+} from "support__/server-mocks";
+import { renderWithProviders, screen } from "support__/ui";
 import type { SearchModelType, SearchResult } from "metabase-types/api";
 import {
   createMockCollection,

@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen, within } from "__support__/ui";
-import { getNextId } from "__support__/utils";
+import { renderWithProviders, screen, within } from "support__/ui";
+import { getNextId } from "support__/utils";
 import {
   createMockCard,
   createMockColumn,
@@ -10,7 +10,7 @@ import {
 } from "metabase-types/api/mocks";
 import registerVisualizations from "metabase/visualizations/register";
 
-import { setupCardsEndpoints } from "__support__/server-mocks";
+import { setupCardsEndpoints } from "support__/server-mocks";
 import type { Props as AddSeriesModalProps } from "./AddSeriesModal";
 import { AddSeriesModal } from "./AddSeriesModal";
 

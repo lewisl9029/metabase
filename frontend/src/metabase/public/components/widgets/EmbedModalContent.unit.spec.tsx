@@ -1,7 +1,7 @@
 import { screen, waitFor, within } from "@testing-library/react";
 
 import { useState } from "react";
-import { renderWithProviders } from "__support__/ui";
+import { renderWithProviders } from "support__/ui";
 import type { Parameter } from "metabase-types/api";
 import { createMockUser } from "metabase-types/api/mocks";
 import { createMockSettingsState } from "metabase-types/store/mocks";

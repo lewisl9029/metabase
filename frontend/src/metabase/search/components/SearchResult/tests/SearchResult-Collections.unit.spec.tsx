@@ -1,15 +1,10 @@
 import { waitFor } from "@testing-library/react";
-import { setupEnterpriseTest } from "__support__/enterprise";
+import { setupEnterpriseTest } from "support__/enterprise";
 import {
   setupCollectionByIdEndpoint,
   setupUserRecipientsEndpoint,
-} from "__support__/server-mocks";
-import {
-  getIcon,
-  queryIcon,
-  renderWithProviders,
-  screen,
-} from "__support__/ui";
+} from "support__/server-mocks";
+import { getIcon, queryIcon, renderWithProviders, screen } from "support__/ui";
 import { createMockCollection, createMockUser } from "metabase-types/api/mocks";
 import { SearchResult } from "metabase/search/components/SearchResult";
 import type { WrappedResult } from "metabase/search/types";

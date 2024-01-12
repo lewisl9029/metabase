@@ -1,18 +1,18 @@
 import userEvent from "@testing-library/user-event";
 
-import { callMockEvent } from "__support__/events";
+import { callMockEvent } from "support__/events";
 import {
   setupCardDataset,
   setupDatabasesEndpoints,
   setupSearchEndpoints,
   setupSegmentsEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 import { checkNotNull } from "metabase/lib/types";
 import { Route } from "metabase/hoc/Title";

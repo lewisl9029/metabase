@@ -1,4 +1,4 @@
-import { createMockMetadata } from "__support__/metadata";
+import { createMockMetadata } from "support__/metadata";
 import * as dateFormatUtils from "metabase/lib/formatting/date";
 import { checkNotNull } from "metabase/lib/types";
 import type { FieldId, TemplateTagType } from "metabase-types/api";

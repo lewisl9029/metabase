@@ -7,8 +7,8 @@ import {
   setupPasswordResetTokenEndpoint,
   setupPropertiesEndpoints,
   setupResetPasswordEndpoint,
-} from "__support__/server-mocks";
-import { renderWithProviders, screen, waitFor } from "__support__/ui";
+} from "support__/server-mocks";
+import { renderWithProviders, screen, waitFor } from "support__/ui";
 import { ResetPassword } from "./ResetPassword";
 
 interface SetupOpts {

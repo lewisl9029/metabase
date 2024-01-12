@@ -1,4 +1,4 @@
-import { render, fireEvent, screen, getIcon } from "__support__/ui";
+import { render, fireEvent, screen, getIcon } from "support__/ui";
 
 import { PermissionsSelect } from "./PermissionsSelect";
 

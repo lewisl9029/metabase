@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import { Route } from "react-router";
-import { screen, renderWithProviders } from "__support__/ui";
+import { screen, renderWithProviders } from "support__/ui";
 import { createMockTokenStatus } from "metabase-types/api/mocks";
 import {
   createMockSettingsState,

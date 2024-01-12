@@ -446,7 +446,7 @@ import React from "react";
 import userEvent from "@testing-library/user-event";
 import { Collection } from "metabase-types/api";
 import { createMockCollection } from "metabase-types/api/mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import CollectionHeader from "./CollectionHeader";
 
 interface SetupOpts {
@@ -499,7 +499,7 @@ We use [`fetch-mock`](https://www.npmjs.com/package/fetch-mock) to mock requests
 
 ```tsx
 import fetchMock from "fetch-mock";
-import { setupCollectionsEndpoints } from "__support__/server-mocks";
+import { setupCollectionsEndpoints } from "support__/server-mocks";
 
 interface SetupOpts {
   collections: Collection[];
@@ -522,4 +522,4 @@ describe("Component", () => {
 Key points:
 
 - `setup` function
-- Call helpers from `__support__/server-mocks` to setup endpoints for your data
+- Call helpers from `support__/server-mocks` to setup endpoints for your data

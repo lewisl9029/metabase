@@ -1,6 +1,6 @@
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen, waitFor } from "__support__/ui";
+import { renderWithProviders, screen, waitFor } from "support__/ui";
 import {
   createMockDashboardState,
   createMockState,
@@ -15,10 +15,10 @@ import {
 import {
   setupCollectionItemsEndpoint,
   setupCollectionsEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import { ROOT_COLLECTION as ROOT } from "metabase/entities/collections";
 import type { Collection, CollectionItem, Dashboard } from "metabase-types/api";
-import { getNextId } from "__support__/utils";
+import { getNextId } from "support__/utils";
 import { checkNotNull } from "metabase/lib/types";
 import { AddCardSidebar } from "./AddCardSidebar";
 

@@ -7,12 +7,12 @@ import {
 import {
   setupDatabaseCandidatesEndpoint,
   setupDatabasesEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import { HomeXraySection } from "./HomeXraySection";
 
 interface SetupOpts {

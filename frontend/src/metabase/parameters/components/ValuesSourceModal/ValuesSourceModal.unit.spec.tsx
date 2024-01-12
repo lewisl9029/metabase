@@ -9,7 +9,7 @@ import {
   createMockField,
   createMockParameterValues,
 } from "metabase-types/api/mocks";
-import { createMockMetadata } from "__support__/metadata";
+import { createMockMetadata } from "support__/metadata";
 import {
   setupCardsEndpoints,
   setupCollectionsEndpoints,
@@ -18,12 +18,12 @@ import {
   setupParameterValuesEndpoints,
   setupUnauthorizedCardsEndpoints,
   setupUnauthorizedCollectionsEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import type { UiParameter } from "metabase-lib/parameters/types";
 import { createMockUiParameter } from "metabase-lib/parameters/mock";
 import ValuesSourceModal from "./ValuesSourceModal";

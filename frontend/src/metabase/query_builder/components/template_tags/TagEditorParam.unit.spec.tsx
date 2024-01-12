@@ -4,9 +4,9 @@ import { getMetadata } from "metabase/selectors/metadata";
 import {
   setupDatabasesEndpoints,
   setupSearchEndpoints,
-} from "__support__/server-mocks";
-import { createMockEntitiesState } from "__support__/store";
-import { renderWithProviders, screen } from "__support__/ui";
+} from "support__/server-mocks";
+import { createMockEntitiesState } from "support__/store";
+import { renderWithProviders, screen } from "support__/ui";
 import type { TemplateTag } from "metabase-types/api";
 import {
   createMockCard,

@@ -2,7 +2,7 @@ import _ from "underscore";
 import { screen, render } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
-import { getIcon } from "__support__/ui";
+import { getIcon } from "support__/ui";
 import SelectList from "./index";
 
 describe("Components > SelectList", () => {

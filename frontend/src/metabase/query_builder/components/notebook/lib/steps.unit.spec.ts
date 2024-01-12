@@ -1,4 +1,4 @@
-import { createMockMetadata } from "__support__/metadata";
+import { createMockMetadata } from "support__/metadata";
 import { getQuestionSteps } from "metabase/query_builder/components/notebook/lib/steps";
 import { checkNotNull } from "metabase/lib/types";
 import type { StructuredQuery as StructuredQueryObject } from "metabase-types/api";

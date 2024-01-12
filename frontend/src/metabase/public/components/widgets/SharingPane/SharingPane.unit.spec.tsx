@@ -1,10 +1,10 @@
 import userEvent from "@testing-library/user-event";
 import { Route } from "react-router";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { createMockDashboard, createMockUser } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
 import { checkNotNull } from "metabase/lib/types";
-import { mockSettings } from "__support__/settings";
+import { mockSettings } from "support__/settings";
 import { SharingPane } from "./SharingPane";
 
 const setup = ({

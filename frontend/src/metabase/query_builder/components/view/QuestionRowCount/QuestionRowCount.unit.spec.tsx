@@ -1,16 +1,11 @@
 import userEvent from "@testing-library/user-event";
 
-import { createMockMetadata } from "__support__/metadata";
-import {
-  fireEvent,
-  renderWithProviders,
-  screen,
-  waitFor,
-} from "__support__/ui";
+import { createMockMetadata } from "support__/metadata";
+import { fireEvent, renderWithProviders, screen, waitFor } from "support__/ui";
 import {
   setupDatabasesEndpoints,
   setupUnauthorizedDatabasesEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 
 import { checkNotNull } from "metabase/lib/types";
 

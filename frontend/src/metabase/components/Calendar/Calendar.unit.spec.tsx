@@ -2,7 +2,7 @@
 import moment from "moment-timezone";
 import mockDate from "mockdate";
 import userEvent from "@testing-library/user-event";
-import { render, screen } from "__support__/ui";
+import { render, screen } from "support__/ui";
 
 import MetabaseSettings from "metabase/lib/settings";
 import { updateMomentStartOfWeek } from "metabase/lib/i18n";

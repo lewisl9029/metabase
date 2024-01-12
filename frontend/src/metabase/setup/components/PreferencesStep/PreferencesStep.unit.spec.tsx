@@ -3,8 +3,8 @@ import {
   createMockSetupState,
   createMockState,
 } from "metabase-types/store/mocks";
-import { setupErrorSetupEndpoints } from "__support__/server-mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+import { setupErrorSetupEndpoints } from "support__/server-mocks";
+import { renderWithProviders, screen } from "support__/ui";
 import { PREFERENCES_STEP, USER_STEP } from "../../constants";
 import { PreferencesStep } from "./PreferencesStep";
 

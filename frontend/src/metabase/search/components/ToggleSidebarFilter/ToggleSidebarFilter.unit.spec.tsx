@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import { useState } from "react";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import type { SearchFilterComponent } from "metabase/search/types";
 import type { ToggleSidebarFilterProps } from "metabase/search/components/ToggleSidebarFilter";
 import { ToggleSidebarFilter } from "metabase/search/components/ToggleSidebarFilter";

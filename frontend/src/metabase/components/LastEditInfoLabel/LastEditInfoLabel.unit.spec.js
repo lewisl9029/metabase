@@ -1,7 +1,7 @@
 import mockDate from "mockdate";
 // eslint-disable-next-line no-restricted-imports -- deprecated usage
 import moment from "moment-timezone";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { createMockUser } from "metabase-types/api/mocks";
 import LastEditInfoLabel from "./LastEditInfoLabel";
 

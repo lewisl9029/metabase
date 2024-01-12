@@ -12,11 +12,11 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import {
   setupFieldSearchValuesEndpoints,
   setupFieldValuesEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import * as Lib from "metabase-lib";
 import { columnFinder, createQuery } from "metabase-lib/test-helpers";
 import {

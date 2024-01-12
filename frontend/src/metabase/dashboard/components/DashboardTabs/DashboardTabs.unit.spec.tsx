@@ -2,7 +2,7 @@ import { Link, Route } from "react-router";
 import userEvent from "@testing-library/user-event";
 import type { Location } from "history";
 
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import type { DashboardState, State } from "metabase-types/store";
 import type { DashboardTab } from "metabase-types/api";
 import { getDefaultTab, resetTempTabId } from "metabase/dashboard/actions";

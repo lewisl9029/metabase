@@ -1,5 +1,5 @@
 import userEvent from "@testing-library/user-event";
-import { screen, waitForLoaderToBeRemoved, within } from "__support__/ui";
+import { screen, waitForLoaderToBeRemoved, within } from "support__/ui";
 
 export function getItemPickerHeader() {
   return screen.getByTestId("item-picker-header");

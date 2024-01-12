@@ -1,6 +1,6 @@
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
-import { screen } from "__support__/ui";
+import { screen } from "support__/ui";
 
 import { setup, dashcard, user, hasBasicFilterOptions } from "./setup";
 

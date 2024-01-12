@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import { checkNotNull } from "metabase/lib/types";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import * as Lib from "metabase-lib";
 import {
   createQuery,

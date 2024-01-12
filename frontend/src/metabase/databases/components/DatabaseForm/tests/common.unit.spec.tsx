@@ -1,5 +1,5 @@
 import userEvent from "@testing-library/user-event";
-import { screen, waitFor } from "__support__/ui";
+import { screen, waitFor } from "support__/ui";
 import { setup } from "./setup";
 
 describe("DatabaseForm", () => {

@@ -10,13 +10,13 @@ import { createMockDatabase, createMockTable } from "metabase-types/api/mocks";
 import {
   setupDatabasesEndpoints,
   setupTablesEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import { delay } from "metabase/lib/promise";
 import type Database from "metabase-lib/metadata/Database";
 import type Table from "metabase-lib/metadata/Table";

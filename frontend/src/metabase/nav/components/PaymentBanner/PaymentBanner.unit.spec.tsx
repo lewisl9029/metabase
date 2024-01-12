@@ -1,5 +1,5 @@
 /* eslint jest/expect-expect: ["error", { "assertFunctionNames": ["expect", "expectBannerToBeHidden"] }] */
-import { render, screen } from "__support__/ui";
+import { render, screen } from "support__/ui";
 
 import type { TokenStatus } from "metabase-types/api";
 

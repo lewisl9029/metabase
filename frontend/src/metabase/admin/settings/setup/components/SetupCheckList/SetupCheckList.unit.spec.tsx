@@ -5,12 +5,12 @@ import {
   createMockSetupCheckListItem,
   createMockSetupCheckListTask,
 } from "metabase-types/api/mocks";
-import { setupAdminCheckListEndpoint } from "__support__/server-mocks";
+import { setupAdminCheckListEndpoint } from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import SetupCheckList from "./SetupCheckList";
 
 const ADD_DB_TASK = createMockSetupCheckListTask({

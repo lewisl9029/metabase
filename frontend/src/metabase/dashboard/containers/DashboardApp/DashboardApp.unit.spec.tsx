@@ -6,7 +6,7 @@ import {
   screen,
   renderWithProviders,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import { checkNotNull } from "metabase/lib/types";
 import { DashboardAppConnected } from "metabase/dashboard/containers/DashboardApp/DashboardApp";
 import { BEFORE_UNLOAD_UNSAVED_MESSAGE } from "metabase/hooks/use-before-unload";
@@ -30,9 +30,9 @@ import {
   setupDatabasesEndpoints,
   setupSearchEndpoints,
   setupTableEndpoints,
-} from "__support__/server-mocks";
-import { createMockEntitiesState } from "__support__/store";
-import { callMockEvent } from "__support__/events";
+} from "support__/server-mocks";
+import { createMockEntitiesState } from "support__/store";
+import { callMockEvent } from "support__/events";
 
 const TEST_COLLECTION = createMockCollection();
 

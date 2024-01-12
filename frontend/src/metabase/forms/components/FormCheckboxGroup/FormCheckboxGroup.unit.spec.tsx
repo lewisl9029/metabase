@@ -9,7 +9,7 @@ import {
   requiredErrorMessage,
 } from "metabase/forms";
 import { Checkbox } from "metabase/ui";
-import { render, screen, waitFor } from "__support__/ui";
+import { render, screen, waitFor } from "support__/ui";
 
 interface FormValues {
   columns: string[];

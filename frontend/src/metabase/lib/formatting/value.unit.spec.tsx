@@ -1,4 +1,4 @@
-import { screen, render } from "__support__/ui";
+import { screen, render } from "support__/ui";
 import { createMockColumn } from "metabase-types/api/mocks";
 import { formatValue } from "./value";
 

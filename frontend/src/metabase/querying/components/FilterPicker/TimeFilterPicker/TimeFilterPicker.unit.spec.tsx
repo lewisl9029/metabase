@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
 import userEvent from "@testing-library/user-event";
-import { render, screen, within } from "__support__/ui";
+import { render, screen, within } from "support__/ui";
 import { checkNotNull } from "metabase/lib/types";
 import * as Lib from "metabase-lib";
 import {

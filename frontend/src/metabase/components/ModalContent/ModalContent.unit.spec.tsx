@@ -1,5 +1,5 @@
 import userEvent from "@testing-library/user-event";
-import { getIcon, render } from "__support__/ui";
+import { getIcon, render } from "support__/ui";
 import { ModalContentActionIcon } from "./ModalContent.styled";
 import type { ModalContentProps } from "./ModalContent";
 import ModalContent from "./ModalContent";

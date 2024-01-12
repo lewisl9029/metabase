@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { getIcon } from "__support__/ui";
+import { getIcon } from "support__/ui";
 
 import { TabRow } from "../TabRow";
 import type { RenameableTabButtonProps } from "./TabButton";

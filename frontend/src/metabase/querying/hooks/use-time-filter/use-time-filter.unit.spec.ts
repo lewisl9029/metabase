@@ -8,7 +8,7 @@ import {
   createSampleDatabase,
   ORDERS_ID,
 } from "metabase-types/api/mocks/presets";
-import { createMockMetadata } from "__support__/metadata";
+import { createMockMetadata } from "support__/metadata";
 import { columnFinder, createQuery } from "metabase-lib/test-helpers";
 import { useTimeFilter } from "./use-time-filter";
 

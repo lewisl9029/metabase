@@ -5,9 +5,9 @@ import {
   setupCollectionsEndpoints,
   setupDatabasesEndpoints,
   setupNativeQuerySnippetEndpoints,
-} from "__support__/server-mocks";
-import { createMockEntitiesState } from "__support__/store";
-import { renderWithProviders } from "__support__/ui";
+} from "support__/server-mocks";
+import { createMockEntitiesState } from "support__/store";
+import { renderWithProviders } from "support__/ui";
 import type { Card } from "metabase-types/api";
 import {
   createMockCard,

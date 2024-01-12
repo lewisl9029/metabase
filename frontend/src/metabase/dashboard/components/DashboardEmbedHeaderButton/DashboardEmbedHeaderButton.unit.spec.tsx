@@ -3,7 +3,7 @@ import {
   createMockSettingsState,
   createMockState,
 } from "metabase-types/store/mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { DashboardEmbedHeaderButton } from "./DashboardEmbedHeaderButton";
 
 const setup = ({

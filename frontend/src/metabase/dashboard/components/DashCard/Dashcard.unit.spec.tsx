@@ -1,4 +1,4 @@
-import { queryIcon, renderWithProviders, screen } from "__support__/ui";
+import { queryIcon, renderWithProviders, screen } from "support__/ui";
 
 import registerVisualizations from "metabase/visualizations/register";
 import {
@@ -11,7 +11,7 @@ import {
   createMockLinkDashboardCard,
   createMockDataset,
 } from "metabase-types/api/mocks";
-import { createMockMetadata } from "__support__/metadata";
+import { createMockMetadata } from "support__/metadata";
 
 import type { DashCardProps } from "./DashCard";
 import { DashCard } from "./DashCard";

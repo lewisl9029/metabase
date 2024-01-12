@@ -15,9 +15,9 @@ import {
   SAMPLE_DB_ID,
 } from "metabase-types/api/mocks/presets";
 import { createMockState } from "metabase-types/store/mocks";
-import { setupCardQueryDownloadEndpoint } from "__support__/server-mocks";
-import { createMockEntitiesState } from "__support__/store";
-import { getIcon, renderWithProviders, screen } from "__support__/ui";
+import { setupCardQueryDownloadEndpoint } from "support__/server-mocks";
+import { createMockEntitiesState } from "support__/store";
+import { getIcon, renderWithProviders, screen } from "support__/ui";
 import { DashCardMenuConnected } from "./DashCardMenu";
 
 const TEST_CARD = createMockCard({

@@ -1,5 +1,5 @@
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { createMockUserListResult } from "metabase-types/api/mocks";
 import { UserListElement } from "metabase/search/components/UserListElement/index";
 

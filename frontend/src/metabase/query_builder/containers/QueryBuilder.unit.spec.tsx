@@ -41,15 +41,15 @@ import {
   setupCardQueryMetadataEndpoint,
   setupCollectionByIdEndpoint,
   setupFieldValuesEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
   within,
-} from "__support__/ui";
-import { callMockEvent } from "__support__/events";
+} from "support__/ui";
+import { callMockEvent } from "support__/events";
 import { BEFORE_UNLOAD_UNSAVED_MESSAGE } from "metabase/hooks/use-before-unload";
 import { serializeCardForUrl } from "metabase/lib/card";
 import NewModelOptions from "metabase/models/containers/NewModelOptions";

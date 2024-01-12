@@ -1,6 +1,6 @@
-import { renderWithProviders, screen, waitFor } from "__support__/ui";
+import { renderWithProviders, screen, waitFor } from "support__/ui";
 import { createMockUserListResult } from "metabase-types/api/mocks";
-import { setupUserRecipientsEndpoint } from "__support__/server-mocks";
+import { setupUserRecipientsEndpoint } from "support__/server-mocks";
 import type { UserListResult } from "metabase-types/api";
 import { UserNameDisplay } from "./UserNameDisplay";
 import type { UserNameDisplayProps } from "./UserNameDisplay";

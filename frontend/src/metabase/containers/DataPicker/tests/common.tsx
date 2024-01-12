@@ -6,8 +6,8 @@ import {
   setupSearchEndpoints,
   setupCollectionByIdEndpoint,
   setupUserRecipientsEndpoint,
-} from "__support__/server-mocks";
-import { renderWithProviders, waitForLoaderToBeRemoved } from "__support__/ui";
+} from "support__/server-mocks";
+import { renderWithProviders, waitForLoaderToBeRemoved } from "support__/ui";
 
 import Input from "metabase/core/components/Input";
 import { ROOT_COLLECTION } from "metabase/entities/collections";

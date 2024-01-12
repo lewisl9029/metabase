@@ -6,8 +6,8 @@ import {
   renderWithProviders,
   screen,
   waitForElementToBeRemoved,
-} from "__support__/ui";
-import { setupFieldValuesEndpoints } from "__support__/server-mocks";
+} from "support__/ui";
+import { setupFieldValuesEndpoints } from "support__/server-mocks";
 import * as Lib from "metabase-lib";
 import { columnFinder, createQuery } from "metabase-lib/test-helpers";
 import { NumberFilterEditor } from "./NumberFilterEditor";

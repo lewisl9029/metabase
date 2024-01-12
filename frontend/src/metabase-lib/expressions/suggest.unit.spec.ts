@@ -12,13 +12,13 @@ import {
   SAMPLE_METADATA,
   createQuery,
 } from "metabase-lib/test-helpers";
-import { sharedMetadata } from "./__support__/shared";
+import { sharedMetadata } from "./support__/shared";
 import {
   aggregationOpts,
   expressionOpts,
   metadata,
   DEFAULT_QUERY,
-} from "./__support__/expressions";
+} from "./support__/expressions";
 import type { Suggestion } from "./suggest";
 import { suggest as suggest_ } from "./suggest";
 
@@ -59,7 +59,7 @@ const FIELDS_ORDERS: Config[] = [
   { text: "[User → Zip] ", type: "fields" },
 ];
 
-// custom metadata defined in __support__/expressions
+// custom metadata defined in support__/expressions
 const METRICS_CUSTOM = [{ type: "metrics", text: "[metric]" }];
 const FIELDS_CUSTOM = [
   { type: "fields", text: "[A] " },

@@ -2,7 +2,7 @@ import {
   createMockSettingsState,
   createMockState,
 } from "metabase-types/store/mocks";
-import { renderWithProviders, waitFor } from "__support__/ui";
+import { renderWithProviders, waitFor } from "support__/ui";
 import * as domUtils from "metabase/lib/dom";
 import { SsoButton } from "./SsoButton";
 

@@ -1,6 +1,6 @@
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { createMockUser } from "metabase-types/api/mocks";
 import { UserCollectionList } from "./UserCollectionList";
 

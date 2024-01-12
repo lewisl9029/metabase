@@ -12,12 +12,12 @@ import {
   setupDatabasesEndpoints,
   setupModelActionsEndpoints,
   setupTableEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 
 import { getRoutes as getModelRoutes } from "metabase/models/routes";
 import type {

@@ -2,7 +2,7 @@ import {
   createMockCard,
   createMockModerationReview,
 } from "metabase-types/api/mocks";
-import { screen } from "__support__/ui";
+import { screen } from "support__/ui";
 import type { SetupOpts } from "./setup";
 import { setup } from "./setup";
 

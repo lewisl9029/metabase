@@ -6,8 +6,8 @@ import {
   createSampleDatabase,
   ORDERS_ID,
 } from "metabase-types/api/mocks/presets";
-import { createMockMetadata } from "__support__/metadata";
-import { renderWithProviders, screen } from "__support__/ui";
+import { createMockMetadata } from "support__/metadata";
+import { renderWithProviders, screen } from "support__/ui";
 import * as Lib from "metabase-lib";
 import { columnFinder, createQuery } from "metabase-lib/test-helpers";
 import { BooleanFilterEditor } from "./BooleanFilterEditor";

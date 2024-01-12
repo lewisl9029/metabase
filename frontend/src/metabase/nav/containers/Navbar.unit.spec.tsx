@@ -6,11 +6,11 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import {
   setupCollectionsEndpoints,
   setupDatabasesEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 
 import type { User } from "metabase-types/api";
 import { createMockDatabase, createMockUser } from "metabase-types/api/mocks";

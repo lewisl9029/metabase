@@ -5,7 +5,7 @@ import {
   createMockState,
   createMockUserInfo,
 } from "metabase-types/store/mocks";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { SUBSCRIBE_URL } from "../../constants";
 import { NewsletterForm } from "./NewsletterForm";
 

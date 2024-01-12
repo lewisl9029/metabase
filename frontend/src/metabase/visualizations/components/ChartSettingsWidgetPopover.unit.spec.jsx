@@ -1,7 +1,7 @@
 import { useState } from "react";
 import userEvent from "@testing-library/user-event";
 
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 
 import ChartSettingsWidgetPopover from "metabase/visualizations/components/ChartSettingsWidgetPopover";
 

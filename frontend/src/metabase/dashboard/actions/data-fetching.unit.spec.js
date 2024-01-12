@@ -1,12 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { setupDashboardEndpoints } from "__support__/server-mocks";
+import { setupDashboardEndpoints } from "support__/server-mocks";
 import {
   createMockDashboard,
   createMockDatabase,
   createMockSettings,
 } from "metabase-types/api/mocks";
 import { createMockDashboardState } from "metabase-types/store/mocks";
-import { createMockEntitiesState } from "__support__/store";
+import { createMockEntitiesState } from "support__/store";
 import { dashboardReducers } from "../reducers";
 import { fetchDashboard } from "./data-fetching";
 

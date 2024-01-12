@@ -1,5 +1,5 @@
 import userEvent from "@testing-library/user-event";
-import { getIcon, renderWithProviders, screen } from "__support__/ui";
+import { getIcon, renderWithProviders, screen } from "support__/ui";
 import type { Expression } from "metabase-types/api";
 import * as Lib from "metabase-lib";
 import { createQuery } from "metabase-lib/test-helpers";

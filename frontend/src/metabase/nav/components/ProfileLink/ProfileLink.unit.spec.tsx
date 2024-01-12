@@ -2,8 +2,8 @@ import { screen, waitFor } from "@testing-library/react";
 
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders } from "__support__/ui";
-import { mockSettings } from "__support__/settings";
+import { renderWithProviders } from "support__/ui";
+import { mockSettings } from "support__/settings";
 
 import {
   createMockAdminState,

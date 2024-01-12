@@ -14,7 +14,7 @@ import {
   ORDERS_ID,
   SAMPLE_DB_ID,
 } from "metabase-types/api/mocks/presets";
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { createQuery } from "metabase-lib/test-helpers";
 import { QueryColumnSelector } from "./QueryColumnSelector";
 

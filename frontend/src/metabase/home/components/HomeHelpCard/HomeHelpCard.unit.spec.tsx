@@ -1,4 +1,4 @@
-import { renderWithProviders, screen } from "__support__/ui";
+import { renderWithProviders, screen } from "support__/ui";
 import { HomeHelpCard } from "./HomeHelpCard";
 
 const setup = () => {

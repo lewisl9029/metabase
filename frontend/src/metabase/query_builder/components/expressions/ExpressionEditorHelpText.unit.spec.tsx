@@ -1,7 +1,7 @@
 import { render, screen, within } from "@testing-library/react";
 import { checkNotNull } from "metabase/lib/types";
-import { createMockMetadata } from "__support__/metadata";
-import { getBrokenUpTextMatcher } from "__support__/ui";
+import { createMockMetadata } from "support__/metadata";
+import { getBrokenUpTextMatcher } from "support__/ui";
 import {
   createSampleDatabase,
   SAMPLE_DB_ID,

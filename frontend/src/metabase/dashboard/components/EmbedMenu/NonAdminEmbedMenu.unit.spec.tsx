@@ -1,7 +1,7 @@
 import userEvent from "@testing-library/user-event";
-import { setupDashboardPublicLinkEndpoints } from "__support__/server-mocks";
-import { mockSettings } from "__support__/settings";
-import { renderWithProviders, screen } from "__support__/ui";
+import { setupDashboardPublicLinkEndpoints } from "support__/server-mocks";
+import { mockSettings } from "support__/settings";
+import { renderWithProviders, screen } from "support__/ui";
 import { createMockDashboard } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
 import { NonAdminEmbedMenu } from "metabase/dashboard/components/EmbedMenu/NonAdminEmbedMenu";

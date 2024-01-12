@@ -4,7 +4,7 @@ import {
   createMockCard,
   createMockModerationReview,
 } from "metabase-types/api/mocks";
-import { screen } from "__support__/ui";
+import { screen } from "support__/ui";
 import { setup } from "./setup";
 
 const DESCRIPTION = "abc";

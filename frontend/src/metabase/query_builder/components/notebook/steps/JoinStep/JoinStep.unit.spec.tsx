@@ -1,12 +1,12 @@
 import { useState } from "react";
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen, waitFor, within } from "__support__/ui";
-import { createMockMetadata } from "__support__/metadata";
-import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders, screen, waitFor, within } from "support__/ui";
+import { createMockMetadata } from "support__/metadata";
+import { createMockEntitiesState } from "support__/store";
 import {
   setupDatabasesEndpoints,
   setupSearchEndpoints,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import {
   createMockCollectionItem,
   createMockDatabase,

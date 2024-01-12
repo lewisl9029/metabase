@@ -1,8 +1,8 @@
 import { Route } from "react-router";
 
-import { renderWithProviders } from "__support__/ui";
-import { mockSettings } from "__support__/settings";
-import { setupEnterprisePlugins } from "__support__/enterprise";
+import { renderWithProviders } from "support__/ui";
+import { mockSettings } from "support__/settings";
+import { setupEnterprisePlugins } from "support__/enterprise";
 
 import { createMockState } from "metabase-types/store/mocks";
 
@@ -15,7 +15,7 @@ import {
   setupCollectionPermissionsGraphEndpoint,
   setupCollectionsEndpoints,
   setupGroupsEndpoint,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 
 import type {
   CollectionPermissionsGraph,

@@ -7,7 +7,7 @@ import {
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "__support__/ui";
+} from "support__/ui";
 import { ImpersonationModal } from "metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModal";
 import { shared } from "metabase-enterprise/shared/reducer";
 import { advancedPermissionsSlice } from "metabase-enterprise/advanced_permissions/reducer";
@@ -16,7 +16,7 @@ import {
   setupUserAttributesEndpoint,
   setupExistingImpersonationEndpoint,
   setupMissingImpersonationEndpoint,
-} from "__support__/server-mocks";
+} from "support__/server-mocks";
 import { createMockDatabase, createMockTable } from "metabase-types/api/mocks";
 import { createMockImpersonation } from "metabase-types/api/mocks/permissions";
 import { getImpersonations } from "metabase-enterprise/advanced_permissions/selectors";
