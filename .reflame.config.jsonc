@@ -59,7 +59,7 @@
     "support__": {
       "sourceDirectory": "frontend/test/__support__",
       "exports": {
-        "./metadata/*": "./metadata/*"
+        "./metadata": "./metadata.ts"
       }
     },
     "assets": {
@@ -142,6 +142,6 @@
     // "framer-motion": "^6.2.8",
   },
   "npmPackageOverrides": {
-    "ttag": "@lewisl9029/ttag@1.8.6-2"
+    "ttag": "npm:@lewisl9029/ttag@1.8.6-2"
   }
 }
