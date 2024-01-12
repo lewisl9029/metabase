@@ -5,7 +5,7 @@ import {
   createMockSegment,
   createMockTable,
 } from "metabase-types/api/mocks";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import { SAMPLE_DB_ID } from "metabase-types/api/mocks/presets";
 import { checkNotNull } from "metabase/lib/types";
 import type { DatasetQuery } from "metabase-types/api";

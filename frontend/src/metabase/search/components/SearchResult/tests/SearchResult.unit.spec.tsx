@@ -3,8 +3,8 @@ import { Route } from "react-router";
 import {
   setupCollectionByIdEndpoint,
   setupUsersEndpoints,
-} from "support__/server-mocks";
-import { getIcon, renderWithProviders, screen } from "support__/ui";
+} from "__support__/server-mocks";
+import { getIcon, renderWithProviders, screen } from "__support__/ui";
 import { createMockCollection, createMockUser } from "metabase-types/api/mocks";
 import { SearchResult } from "metabase/search/components/SearchResult/SearchResult";
 import { createWrappedSearchResult } from "metabase/search/components/SearchResult/tests/util";

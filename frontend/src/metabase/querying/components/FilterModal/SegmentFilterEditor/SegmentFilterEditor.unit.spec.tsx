@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
-import { createMockMetadata } from "support__/metadata";
-import { renderWithProviders, screen } from "support__/ui";
+import { createMockMetadata } from "__support__/metadata";
+import { renderWithProviders, screen } from "__support__/ui";
 import { createMockSegment } from "metabase-types/api/mocks";
 import {
   createSampleDatabase,

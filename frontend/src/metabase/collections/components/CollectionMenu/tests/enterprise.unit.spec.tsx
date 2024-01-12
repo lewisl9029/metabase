@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import { createMockCollection } from "metabase-types/api/mocks";
-import { getIcon, screen } from "support__/ui";
+import { getIcon, screen } from "__support__/ui";
 import type { SetupOpts } from "./setup";
 import { setup } from "./setup";
 

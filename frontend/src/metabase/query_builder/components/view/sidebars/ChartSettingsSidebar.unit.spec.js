@@ -1,5 +1,5 @@
 import { render, fireEvent, screen } from "@testing-library/react";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import {
   createSampleDatabase,
   SAMPLE_DB_ID,

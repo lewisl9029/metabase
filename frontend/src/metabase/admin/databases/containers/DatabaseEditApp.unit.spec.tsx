@@ -6,9 +6,9 @@ import {
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
-import { setupEnterpriseTest } from "support__/enterprise";
-import { mockSettings } from "support__/settings";
+} from "__support__/ui";
+import { setupEnterpriseTest } from "__support__/enterprise";
+import { mockSettings } from "__support__/settings";
 
 import type { Engine } from "metabase-types/api";
 import {
@@ -19,11 +19,11 @@ import {
 import {
   setupDatabaseEndpoints,
   setupDatabasesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 
 import { checkNotNull } from "metabase/lib/types";
 import { BEFORE_UNLOAD_UNSAVED_MESSAGE } from "metabase/hooks/use-before-unload";
-import { callMockEvent } from "support__/events";
+import { callMockEvent } from "__support__/events";
 import DatabaseEditApp from "./DatabaseEditApp";
 
 const ENGINES_MOCK: Record<string, Engine> = {

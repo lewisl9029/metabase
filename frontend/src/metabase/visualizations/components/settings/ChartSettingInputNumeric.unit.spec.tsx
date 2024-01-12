@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 
-import { fireEvent, renderWithProviders, screen } from "support__/ui";
+import { fireEvent, renderWithProviders, screen } from "__support__/ui";
 import { ChartSettingInputNumeric } from "./ChartSettingInputNumeric";
 
 function setup({

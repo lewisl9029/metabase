@@ -1,6 +1,6 @@
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
-import { render, screen, waitForLoaderToBeRemoved } from "support__/ui";
+import { render, screen, waitForLoaderToBeRemoved } from "__support__/ui";
 import type Database from "metabase-lib/metadata/Database";
 import type { DeleteDatabaseModalProps } from "./DeleteDatabaseModal";
 import DeleteDatabaseModal from "./DeleteDatabaseModal";

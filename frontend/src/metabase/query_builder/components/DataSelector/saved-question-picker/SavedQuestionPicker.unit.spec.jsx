@@ -3,8 +3,8 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
-import { setupCollectionsEndpoints } from "support__/server-mocks";
+} from "__support__/ui";
+import { setupCollectionsEndpoints } from "__support__/server-mocks";
 import {
   createMockCollection,
   createMockCollectionItem,

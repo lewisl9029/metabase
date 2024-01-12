@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { thaw } from "icepick";
 import userEvent from "@testing-library/user-event";
-import { createMockMetadata } from "support__/metadata";
-import { renderWithProviders, screen, within } from "support__/ui";
+import { createMockMetadata } from "__support__/metadata";
+import { renderWithProviders, screen, within } from "__support__/ui";
 import {
   createSampleDatabase,
   ORDERS_ID,

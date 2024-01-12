@@ -1,10 +1,10 @@
 import { Route } from "react-router";
 
-import { renderWithProviders, screen, within } from "support__/ui";
+import { renderWithProviders, screen, within } from "__support__/ui";
 import {
   setupPublicCardQueryEndpoints,
   setupPublicQuestionEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import registerVisualizations from "metabase/visualizations/register";
 import { createMockState } from "metabase-types/store/mocks";
 import {

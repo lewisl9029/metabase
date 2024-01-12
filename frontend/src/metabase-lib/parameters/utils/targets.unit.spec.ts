@@ -1,4 +1,4 @@
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import { isDimensionTarget } from "metabase-types/guards";
 import type { Card, ParameterDimensionTarget } from "metabase-types/api";
 import { createMockTemplateTag } from "metabase-types/api/mocks";

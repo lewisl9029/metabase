@@ -9,7 +9,7 @@ import {
   createMockTableColumnOrderSetting,
 } from "metabase-types/api/mocks";
 import { ORDERS } from "metabase-types/api/mocks/presets";
-import { screen, renderWithProviders } from "support__/ui";
+import { screen, renderWithProviders } from "__support__/ui";
 import { DatasetColumnSelector } from "./DatasetColumnSelector";
 
 const COLUMNS = [

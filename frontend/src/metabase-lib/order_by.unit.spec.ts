@@ -1,4 +1,4 @@
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import { createMockCard } from "metabase-types/api/mocks";
 import {
   createProductsTitleField,

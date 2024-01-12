@@ -1,11 +1,11 @@
 /* istanbul ignore file */
 import fetchMock from "fetch-mock";
-import { setupUserRecipientsEndpoint } from "support__/server-mocks";
-import { renderWithProviders } from "support__/ui";
-import type { Screen } from "support__/ui";
-import { mockSettings } from "support__/settings";
+import { setupUserRecipientsEndpoint } from "__support__/server-mocks";
+import { renderWithProviders } from "__support__/ui";
+import type { Screen } from "__support__/ui";
+import { mockSettings } from "__support__/settings";
 import { createMockState } from "metabase-types/store/mocks";
-import { setupEnterprisePlugins } from "support__/enterprise";
+import { setupEnterprisePlugins } from "__support__/enterprise";
 
 import {
   createMockDashboard,

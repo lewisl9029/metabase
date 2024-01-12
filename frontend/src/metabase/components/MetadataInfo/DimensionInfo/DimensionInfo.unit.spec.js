@@ -1,6 +1,6 @@
-import { renderWithProviders, screen } from "support__/ui";
-import { createMockEntitiesState } from "support__/store";
-import { setupFieldsValuesEndpoints } from "support__/server-mocks";
+import { renderWithProviders, screen } from "__support__/ui";
+import { createMockEntitiesState } from "__support__/store";
+import { setupFieldsValuesEndpoints } from "__support__/server-mocks";
 import { getMetadata } from "metabase/selectors/metadata";
 import {
   createSampleDatabase,

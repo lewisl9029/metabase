@@ -8,13 +8,13 @@ import {
   screen,
   waitFor,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   setupActionEndpoints,
   setupCardsEndpoints,
   setupDatabasesEndpoints,
-} from "support__/server-mocks";
-import { createMockEntitiesState } from "support__/store";
+} from "__support__/server-mocks";
+import { createMockEntitiesState } from "__support__/store";
 
 import type {
   ActionDashboardCard,

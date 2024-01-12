@@ -21,12 +21,12 @@ import {
 import {
   setupDatabasesEndpoints,
   setupSearchEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import { getMetadataRoutes } from "../../routes";
 
 const ORDERS_ID_FIELD = createOrdersIdField();

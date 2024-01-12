@@ -1,11 +1,11 @@
 /* istanbul ignore file */
 import fetchMock from "fetch-mock";
 
-import { renderWithProviders, waitForLoaderToBeRemoved } from "support__/ui";
+import { renderWithProviders, waitForLoaderToBeRemoved } from "__support__/ui";
 import {
   setupCardsEndpoints,
   setupDatabasesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 
 import type { Card, WritebackAction } from "metabase-types/api";
 import {

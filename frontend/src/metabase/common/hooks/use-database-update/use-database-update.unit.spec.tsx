@@ -1,12 +1,12 @@
 import userEvent from "@testing-library/user-event";
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 import { createMockDatabase } from "metabase-types/api/mocks";
-import { setupDatabaseEndpoints } from "support__/server-mocks";
+import { setupDatabaseEndpoints } from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import { useDatabaseQuery } from "../use-database-query";
 import { useDatabaseUpdate } from "./use-database-update";
 

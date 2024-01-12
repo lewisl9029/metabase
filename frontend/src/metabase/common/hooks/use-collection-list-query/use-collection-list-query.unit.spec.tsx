@@ -1,13 +1,13 @@
 import {
   setupCollectionsEndpoints,
   setupCollectionsWithError,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import { createMockCollection } from "metabase-types/api/mocks";
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 import { useCollectionListQuery } from "./use-collection-list-query";

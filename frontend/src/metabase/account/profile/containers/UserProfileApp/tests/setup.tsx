@@ -1,10 +1,10 @@
-import { renderWithProviders } from "support__/ui";
+import { renderWithProviders } from "__support__/ui";
 
 import type { TokenFeatures } from "metabase-types/api";
 import { createMockTokenFeatures } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
-import { mockSettings } from "support__/settings";
-import { setupEnterprisePlugins } from "support__/enterprise";
+import { mockSettings } from "__support__/settings";
+import { setupEnterprisePlugins } from "__support__/enterprise";
 
 import UserProfileApp from "../UserProfileApp";
 

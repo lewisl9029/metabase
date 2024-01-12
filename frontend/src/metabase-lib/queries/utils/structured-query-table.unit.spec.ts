@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 import _ from "underscore";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import {
   createMockField,
   createMockSavedQuestionsDatabase,

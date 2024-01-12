@@ -1,10 +1,10 @@
-import { renderWithProviders } from "support__/ui";
-import { setupEnterprisePlugins } from "support__/enterprise";
+import { renderWithProviders } from "__support__/ui";
+import { setupEnterprisePlugins } from "__support__/enterprise";
 import {
   createMockCollection,
   createMockTokenFeatures,
 } from "metabase-types/api/mocks";
-import { mockSettings } from "support__/settings";
+import { mockSettings } from "__support__/settings";
 import { createMockState } from "metabase-types/store/mocks";
 import type { Collection, TokenFeatures } from "metabase-types/api";
 import type { CollectionHeaderProps } from "../CollectionHeader";

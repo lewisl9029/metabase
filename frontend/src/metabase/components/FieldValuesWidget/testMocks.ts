@@ -1,4 +1,4 @@
-import { createMockEntitiesState } from "support__/store";
+import { createMockEntitiesState } from "__support__/store";
 
 import { getMetadata } from "metabase/selectors/metadata";
 

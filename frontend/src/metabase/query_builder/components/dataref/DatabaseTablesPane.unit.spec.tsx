@@ -1,8 +1,8 @@
 import userEvent from "@testing-library/user-event";
 
-import { createMockMetadata } from "support__/metadata";
-import { renderWithProviders, screen } from "support__/ui";
-import { getNextId } from "support__/utils";
+import { createMockMetadata } from "__support__/metadata";
+import { renderWithProviders, screen } from "__support__/ui";
+import { getNextId } from "__support__/utils";
 import {
   createMockDatabase,
   createMockSearchResult,

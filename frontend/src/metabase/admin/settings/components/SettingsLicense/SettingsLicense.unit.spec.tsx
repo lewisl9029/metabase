@@ -1,4 +1,4 @@
-import { renderWithProviders, screen } from "support__/ui";
+import { renderWithProviders, screen } from "__support__/ui";
 import SettingsLicense from "./SettingsLicense";
 
 const setup = () => {

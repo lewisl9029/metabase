@@ -1,13 +1,13 @@
 /* istanbul ignore file */
 
-import { mockSettings } from "support__/settings";
-import { renderWithProviders, waitForLoaderToBeRemoved } from "support__/ui";
-import { setupEnterprisePlugins } from "support__/enterprise";
+import { mockSettings } from "__support__/settings";
+import { renderWithProviders, waitForLoaderToBeRemoved } from "__support__/ui";
+import { setupEnterprisePlugins } from "__support__/enterprise";
 import {
   setupCollectionItemsEndpoint,
   setupCollectionsEndpoints,
   setupNativeQuerySnippetEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import type { TokenFeatures, User } from "metabase-types/api";
 import {
   createMockCollection,

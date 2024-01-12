@@ -13,13 +13,13 @@ import {
   createMockUser,
 } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
-import { setupEnterprisePlugins } from "support__/enterprise";
+import { setupEnterprisePlugins } from "__support__/enterprise";
 import {
   setupPropertiesEndpoints,
   setupSettingsEndpoints,
-} from "support__/server-mocks";
-import { mockSettings } from "support__/settings";
-import { renderWithProviders, screen, waitFor } from "support__/ui";
+} from "__support__/server-mocks";
+import { mockSettings } from "__support__/settings";
+import { renderWithProviders, screen, waitFor } from "__support__/ui";
 import SettingsEditor from "../SettingsEditor";
 
 export const FULL_APP_EMBEDDING_URL =

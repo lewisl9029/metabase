@@ -8,9 +8,9 @@ import {
   COMMON_DATABASE_FEATURES,
 } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
-import { setupDatabaseUsageInfo } from "support__/server-mocks/database";
-import { createMockEntitiesState } from "support__/store";
-import { renderWithProviders, screen, waitFor, within } from "support__/ui";
+import { setupDatabaseUsageInfo } from "__support__/server-mocks/database";
+import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders, screen, waitFor, within } from "__support__/ui";
 import Sidebar from "./Sidebar";
 
 const NOT_SYNCED_DB_STATUSES: InitialSyncStatus[] = ["aborted", "incomplete"];

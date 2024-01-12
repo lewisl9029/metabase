@@ -10,13 +10,13 @@ import {
 } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
 import * as domUtils from "metabase/lib/dom";
-import { renderWithProviders, screen, waitFor } from "support__/ui";
+import { renderWithProviders, screen, waitFor } from "__support__/ui";
 import {
   setupPropertiesEndpoints,
   setupSettingsEndpoints,
-} from "support__/server-mocks";
-import { setupEnterprisePlugins } from "support__/enterprise";
-import { mockSettings } from "support__/settings";
+} from "__support__/server-mocks";
+import { setupEnterprisePlugins } from "__support__/enterprise";
+import { mockSettings } from "__support__/settings";
 import { WhatsNewNotification } from "./WhatsNewNotification";
 
 const LAST_ACK_SETTINGS_URL = `path:/api/setting/last-acknowledged-version`;

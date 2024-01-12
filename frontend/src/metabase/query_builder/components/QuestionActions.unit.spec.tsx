@@ -8,8 +8,13 @@ import {
 } from "metabase-types/api/mocks";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 import { createMockState } from "metabase-types/store/mocks";
-import { createMockEntitiesState } from "support__/store";
-import { getIcon, queryIcon, renderWithProviders, screen } from "support__/ui";
+import { createMockEntitiesState } from "__support__/store";
+import {
+  getIcon,
+  queryIcon,
+  renderWithProviders,
+  screen,
+} from "__support__/ui";
 import type Question from "metabase-lib/Question";
 import QuestionActions from "./QuestionActions";
 

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { mockSettings } from "support__/settings";
+import { mockSettings } from "__support__/settings";
 import { msToMinutes, msToHours } from "metabase/lib/time";
 import QuestionCacheTTLField from "./QuestionCacheTTLField";
 

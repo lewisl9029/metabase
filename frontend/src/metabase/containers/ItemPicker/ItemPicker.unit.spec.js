@@ -4,13 +4,13 @@ import {
   setupCollectionsEndpoints,
   setupDashboardCollectionItemsEndpoint,
   setupSearchEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   createMockCollection,
   createMockDashboard,

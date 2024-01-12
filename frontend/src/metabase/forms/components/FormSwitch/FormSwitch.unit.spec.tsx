@@ -5,7 +5,7 @@ import {
   FormSubmitButton,
   FormSwitch,
 } from "metabase/forms";
-import { render, screen, waitFor } from "support__/ui";
+import { render, screen, waitFor } from "__support__/ui";
 
 interface FormValues {
   agree?: boolean;

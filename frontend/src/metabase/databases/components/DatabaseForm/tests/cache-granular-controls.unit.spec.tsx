@@ -3,7 +3,7 @@ import {
   createMockSettings,
   createMockTokenFeatures,
 } from "metabase-types/api/mocks";
-import { screen, waitFor } from "support__/ui";
+import { screen, waitFor } from "__support__/ui";
 import type { SetupOpts } from "./setup";
 import { setup } from "./setup";
 

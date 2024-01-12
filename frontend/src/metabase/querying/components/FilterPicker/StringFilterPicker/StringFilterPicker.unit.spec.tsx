@@ -4,11 +4,11 @@ import {
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   setupFieldsValuesEndpoints,
   setupFieldSearchValuesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import { checkNotNull } from "metabase/lib/types";
 import {
   PRODUCT_CATEGORY_VALUES,

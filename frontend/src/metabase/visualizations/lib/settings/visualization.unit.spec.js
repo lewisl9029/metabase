@@ -5,7 +5,7 @@ import {
   getStoredSettingsForSeries,
 } from "metabase/visualizations/lib/settings/visualization";
 
-import { DateTimeColumn, NumberColumn } from "support__/visualizations";
+import { DateTimeColumn, NumberColumn } from "__support__/visualizations";
 
 registerVisualizations();
 

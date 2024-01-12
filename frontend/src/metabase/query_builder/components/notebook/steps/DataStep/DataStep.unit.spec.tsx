@@ -1,5 +1,5 @@
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen } from "support__/ui";
+import { renderWithProviders, screen } from "__support__/ui";
 import {
   createSampleDatabase,
   SAMPLE_DB_ID,
@@ -7,7 +7,7 @@ import {
 import {
   setupDatabasesEndpoints,
   setupSearchEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import * as Lib from "metabase-lib";
 import Question from "metabase-lib/Question";
 import type StructuredQuery from "metabase-lib/queries/StructuredQuery";

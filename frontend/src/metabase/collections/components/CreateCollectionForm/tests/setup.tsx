@@ -6,11 +6,11 @@ import {
   createMockUser,
 } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
-import { setupEnterprisePlugins } from "support__/enterprise";
-import { setupCollectionsEndpoints } from "support__/server-mocks";
-import { mockSettings } from "support__/settings";
-import { createMockEntitiesState } from "support__/store";
-import { renderWithProviders } from "support__/ui";
+import { setupEnterprisePlugins } from "__support__/enterprise";
+import { setupCollectionsEndpoints } from "__support__/server-mocks";
+import { mockSettings } from "__support__/settings";
+import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders } from "__support__/ui";
 import CreateCollectionForm from "../CreateCollectionForm";
 
 const ROOT_COLLECTION = createMockCollection({

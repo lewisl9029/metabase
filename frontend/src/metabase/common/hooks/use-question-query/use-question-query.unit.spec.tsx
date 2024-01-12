@@ -1,11 +1,11 @@
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 import { createMockCard } from "metabase-types/api/mocks";
-import { setupCardsEndpoints } from "support__/server-mocks";
+import { setupCardsEndpoints } from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import { useQuestionQuery } from "./use-question-query";
 
 const TEST_CARD = createMockCard();

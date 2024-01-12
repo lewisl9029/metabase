@@ -1,8 +1,8 @@
 import _ from "underscore";
 import userEvent from "@testing-library/user-event";
-import { createMockMetadata } from "support__/metadata";
-import { createMockEntitiesState } from "support__/store";
-import { renderWithProviders, screen, within } from "support__/ui";
+import { createMockMetadata } from "__support__/metadata";
+import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders, screen, within } from "__support__/ui";
 import { checkNotNull } from "metabase/lib/types";
 
 import type { Metric } from "metabase-types/api";

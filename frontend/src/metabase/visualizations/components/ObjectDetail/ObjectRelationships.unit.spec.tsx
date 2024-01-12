@@ -15,8 +15,8 @@ import {
   REVIEWS,
 } from "metabase-types/api/mocks/presets";
 import { createMockState } from "metabase-types/store/mocks";
-import { createMockEntitiesState } from "support__/store";
-import { renderWithProviders, screen } from "support__/ui";
+import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders, screen } from "__support__/ui";
 import type { ForeignKeyReferences } from "./types";
 import { Relationships } from "./ObjectRelationships";
 

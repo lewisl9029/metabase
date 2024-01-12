@@ -16,9 +16,9 @@ import {
   PEOPLE_ID,
   createSampleDatabase,
 } from "metabase-types/api/mocks/presets";
-import { createMockMetadata } from "support__/metadata";
-import { setupCardEndpoints } from "support__/server-mocks/card";
-import { renderWithProviders, screen } from "support__/ui";
+import { createMockMetadata } from "__support__/metadata";
+import { setupCardEndpoints } from "__support__/server-mocks/card";
+import { renderWithProviders, screen } from "__support__/ui";
 import * as Urls from "metabase/lib/urls";
 import Question from "metabase-lib/Question";
 import * as ML_Urls from "metabase-lib/urls";

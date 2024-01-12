@@ -1,16 +1,16 @@
-import "support__/ui-mocks"; // included explicitly whereas with integrated tests it comes with support__/integrated_tests
+import "__support__/ui-mocks"; // included explicitly whereas with integrated tests it comes with __support__/integrated_tests
 
 import _ from "underscore";
 // eslint-disable-next-line no-restricted-imports -- deprecated usage
 import moment from "moment-timezone";
-import testAcrossTimezones from "support__/timezones";
+import testAcrossTimezones from "__support__/timezones";
 import {
   NumberColumn,
   DateTimeColumn,
   dispatchUIEvent,
   renderLineAreaBar,
   getFormattedTooltips,
-} from "support__/visualizations";
+} from "__support__/visualizations";
 import registerVisualizations from "metabase/visualizations/register";
 
 registerVisualizations();

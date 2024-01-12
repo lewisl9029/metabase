@@ -6,8 +6,8 @@ import {
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
-import { setupFieldsValuesEndpoints } from "support__/server-mocks";
+} from "__support__/ui";
+import { setupFieldsValuesEndpoints } from "__support__/server-mocks";
 
 import { checkNotNull } from "metabase/lib/types";
 

@@ -3,9 +3,9 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
-import { createMockMetadata } from "support__/metadata";
-import { setupFieldValuesEndpoints } from "support__/server-mocks";
+} from "__support__/ui";
+import { createMockMetadata } from "__support__/metadata";
+import { setupFieldValuesEndpoints } from "__support__/server-mocks";
 
 import { checkNotNull } from "metabase/lib/types";
 

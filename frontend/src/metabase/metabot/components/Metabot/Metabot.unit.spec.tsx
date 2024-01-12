@@ -21,10 +21,10 @@ import {
   setupBadRequestMetabotModelEndpoint,
   setupMetabotDatabaseEndpoint,
   setupMetabotModelEndpoint,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 
-import { createMockEntitiesState } from "support__/store";
-import { renderWithProviders, screen } from "support__/ui";
+import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders, screen } from "__support__/ui";
 import Metabot from "./Metabot";
 
 registerVisualizations();

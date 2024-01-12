@@ -31,14 +31,14 @@ import {
   setupFieldValuesEndpoints,
   setupSearchEndpoints,
   setupUnauthorizedFieldValuesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import { TYPE } from "metabase-lib/types/constants";
 import { getMetadataRoutes } from "../../routes";
 

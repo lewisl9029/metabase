@@ -159,7 +159,7 @@ const config = (module.exports = {
       "metabase-types": TYPES_SRC_PATH,
       "metabase-dev": `${SRC_PATH}/dev${devMode ? "" : "-noop"}.js`,
       cljs: devMode ? CLJS_SRC_PATH_DEV : CLJS_SRC_PATH,
-      support__: TEST_SUPPORT_PATH,
+      __support__: TEST_SUPPORT_PATH,
       e2e: E2E_PATH,
       style: SRC_PATH + "/css/core/index",
       ace: __dirname + "/node_modules/ace-builds/src-noconflict",

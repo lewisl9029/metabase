@@ -1,6 +1,6 @@
 import { useState } from "react";
 import userEvent from "@testing-library/user-event";
-import { render, screen, waitFor } from "support__/ui";
+import { render, screen, waitFor } from "__support__/ui";
 import type { ModelActionsSectionProps } from "./ModelActionsSection";
 import ModelActionsSection from "./ModelActionsSection";
 

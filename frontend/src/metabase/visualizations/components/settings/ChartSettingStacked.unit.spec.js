@@ -1,4 +1,4 @@
-import { renderWithProviders, screen } from "support__/ui";
+import { renderWithProviders, screen } from "__support__/ui";
 
 // these tests use ChartSettings directly, but logic we're testing lives in ChartNestedSettingSeries
 import registerVisualizations from "metabase/visualizations/register";

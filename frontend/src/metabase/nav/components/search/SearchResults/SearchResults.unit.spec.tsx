@@ -6,12 +6,12 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   setupCollectionByIdEndpoint,
   setupSearchEndpoints,
   setupUserRecipientsEndpoint,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import type { SearchResult } from "metabase-types/api";
 import {
   createMockCollection,

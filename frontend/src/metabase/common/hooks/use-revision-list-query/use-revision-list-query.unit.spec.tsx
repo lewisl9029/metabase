@@ -1,10 +1,10 @@
-import { setupRevisionsEndpoints } from "support__/server-mocks";
+import { setupRevisionsEndpoints } from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import { createMockRevision } from "metabase-types/api/mocks/revision";
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper/LoadingAndErrorWrapper";
 

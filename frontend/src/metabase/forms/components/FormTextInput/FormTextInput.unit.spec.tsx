@@ -8,7 +8,7 @@ import {
   FormTextInput,
   requiredErrorMessage,
 } from "metabase/forms";
-import { getIcon, queryIcon, render, screen, waitFor } from "support__/ui";
+import { getIcon, queryIcon, render, screen, waitFor } from "__support__/ui";
 
 interface FormValues {
   name: string | null | undefined;

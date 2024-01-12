@@ -1,13 +1,13 @@
 import fetchMock from "fetch-mock";
 
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import {
   fireEvent,
   getIcon,
   render,
   renderWithProviders,
   screen,
-} from "support__/ui";
+} from "__support__/ui";
 
 import { delay } from "metabase/lib/promise";
 

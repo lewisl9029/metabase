@@ -1,5 +1,5 @@
 import { createMockField } from "metabase-types/api/mocks";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import { createMockUiParameter } from "metabase-lib/parameters/mock";
 import type Field from "metabase-lib/metadata/Field";
 import { hasFields } from "./parameter-fields";

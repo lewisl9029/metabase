@@ -1,11 +1,11 @@
 import { DataPermissionsHelp } from "metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp";
-import { mockSettings } from "support__/settings";
+import { mockSettings } from "__support__/settings";
 import { createMockTokenFeatures } from "metabase-types/api/mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 
 async function setup({ hasAdvancedPermissions = false } = {}) {
   const settings = mockSettings({

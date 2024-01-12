@@ -4,7 +4,7 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   createMockCollection,
   createMockSearchResult,
@@ -14,7 +14,7 @@ import {
   setupCollectionByIdEndpoint,
   setupSearchEndpoints,
   setupUserRecipientsEndpoint,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import type { SearchResult } from "metabase-types/api";
 import { checkNotNull } from "metabase/lib/types";
 import { SearchResultsDropdown } from "./SearchResultsDropdown";

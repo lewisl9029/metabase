@@ -1,13 +1,13 @@
 import { Route } from "react-router";
 import { screen } from "@testing-library/react";
 import { createMockCard } from "metabase-types/api/mocks";
-import { renderWithProviders } from "support__/ui";
+import { renderWithProviders } from "__support__/ui";
 import {
   createMockAppState,
   createMockEmbedState,
   createMockQueryBuilderState,
 } from "metabase-types/store/mocks";
-import { setupCollectionsEndpoints } from "support__/server-mocks";
+import { setupCollectionsEndpoints } from "__support__/server-mocks";
 import type { EmbedOptions } from "metabase-types/store";
 import { DEFAULT_EMBED_OPTIONS } from "metabase/redux/embed";
 import AppBar from "./AppBar";

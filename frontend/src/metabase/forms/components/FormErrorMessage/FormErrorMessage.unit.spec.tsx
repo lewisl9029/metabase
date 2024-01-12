@@ -5,7 +5,7 @@ import {
   FormProvider,
   FormSubmitButton,
 } from "metabase/forms";
-import { render, screen } from "support__/ui";
+import { render, screen } from "__support__/ui";
 
 const setup = () => {
   const onSubmit = jest.fn();

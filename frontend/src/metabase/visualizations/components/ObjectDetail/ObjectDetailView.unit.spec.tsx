@@ -1,20 +1,20 @@
 import fetchMock from "fetch-mock";
 
 import userEvent from "@testing-library/user-event";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import {
   setupActionsEndpoints,
   setupCardDataset,
   setupDatabasesEndpoints,
-} from "support__/server-mocks";
-import { testDataset } from "support__/testDataset";
+} from "__support__/server-mocks";
+import { testDataset } from "__support__/testDataset";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
-import { getNextId } from "support__/utils";
+} from "__support__/ui";
+import { getNextId } from "__support__/utils";
 import type { WritebackAction } from "metabase-types/api";
 import {
   createMockCard,

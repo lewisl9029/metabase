@@ -5,13 +5,13 @@ import {
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 
 import {
   setupActionsEndpoints,
   setupCardsEndpoints,
   setupSearchEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 
 import {
   createMockDashboard,

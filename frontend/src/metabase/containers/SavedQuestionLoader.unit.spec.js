@@ -1,13 +1,13 @@
 import { screen } from "@testing-library/react";
 
 import SavedQuestionLoader from "metabase/containers/SavedQuestionLoader";
-import { renderWithProviders } from "support__/ui";
+import { renderWithProviders } from "__support__/ui";
 import {
   setupCardEndpoints,
   setupUnauthorizedSchemaEndpoints,
   setupUnauthorizedCardEndpoints,
   setupDatabaseEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import { createMockCard, createMockColumn } from "metabase-types/api/mocks";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 import Question from "metabase-lib/Question";

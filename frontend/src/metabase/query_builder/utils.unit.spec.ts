@@ -1,6 +1,6 @@
-import { createMockLocation } from "support__/location";
-import { createMockMetadata } from "support__/metadata";
-import { getNextId } from "support__/utils";
+import { createMockLocation } from "__support__/location";
+import { createMockMetadata } from "__support__/metadata";
+import { getNextId } from "__support__/utils";
 import {
   createMockCard,
   createMockNativeDatasetQuery,

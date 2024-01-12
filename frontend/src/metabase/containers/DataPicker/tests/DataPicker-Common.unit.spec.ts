@@ -1,4 +1,4 @@
-import { screen } from "support__/ui";
+import { screen } from "__support__/ui";
 
 import { setup, SAMPLE_DATABASE, SAMPLE_TABLE } from "./common";
 

@@ -7,8 +7,8 @@ import {
   setupCollectionByIdEndpoint,
   setupDashboardCollectionItemsEndpoint,
   setupSearchEndpoints,
-} from "support__/server-mocks";
-import { renderWithProviders, screen, waitFor, within } from "support__/ui";
+} from "__support__/server-mocks";
+import { renderWithProviders, screen, waitFor, within } from "__support__/ui";
 import {
   createMockCard,
   createMockCollection,
@@ -24,7 +24,7 @@ import type {
 } from "metabase-types/api";
 import { ROOT_COLLECTION as ROOT } from "metabase/entities/collections";
 import { checkNotNull, isNotNull } from "metabase/lib/types";
-import { getNextId } from "support__/utils";
+import { getNextId } from "__support__/utils";
 import { ConnectedAddToDashSelectDashModal } from "./AddToDashSelectDashModal";
 
 const CURRENT_USER = createMockUser({

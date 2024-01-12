@@ -1,8 +1,8 @@
-import { renderWithProviders, screen } from "support__/ui";
+import { renderWithProviders, screen } from "__support__/ui";
 import {
   setupDatabasesEndpoints,
   setupSearchEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 

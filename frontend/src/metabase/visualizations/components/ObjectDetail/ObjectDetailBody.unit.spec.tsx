@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import { testDataset } from "support__/testDataset";
+import { testDataset } from "__support__/testDataset";
 
 import { ObjectDetailBody } from "./ObjectDetailBody";
 

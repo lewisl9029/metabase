@@ -2,8 +2,8 @@ import { Route } from "react-router";
 import _ from "underscore";
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
-import { fireEvent, renderWithProviders, screen } from "support__/ui";
-import { createMockEntitiesState } from "support__/store";
+import { fireEvent, renderWithProviders, screen } from "__support__/ui";
+import { createMockEntitiesState } from "__support__/store";
 
 import MetabaseSettings from "metabase/lib/settings";
 import { getMetadata } from "metabase/selectors/metadata";

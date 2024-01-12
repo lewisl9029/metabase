@@ -13,7 +13,7 @@ import {
   DateTimeColumn,
   StringColumn,
   NumberColumn,
-} from "support__/visualizations";
+} from "__support__/visualizations";
 
 describe("getClickHoverObject", () => {
   it("should return data for tooltip", () => {

@@ -4,12 +4,12 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   setupCollectionsEndpoints,
   setupCollectionItemsEndpoint,
   setupSearchEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   createMockCollection,
   createMockCollectionItem,

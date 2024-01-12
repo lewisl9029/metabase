@@ -6,13 +6,13 @@ import {
   fireEvent,
   getIcon,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   setupSearchEndpoints,
   setupRecentViewsEndpoints,
   setupCollectionByIdEndpoint,
   setupUserRecipientsEndpoint,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import * as domUtils from "metabase/lib/dom";
 import registerVisualizations from "metabase/visualizations/register";
 

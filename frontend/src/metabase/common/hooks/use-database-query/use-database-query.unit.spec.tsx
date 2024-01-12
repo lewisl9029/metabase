@@ -4,12 +4,12 @@ import {
   PERMISSION_ERROR,
   setupDatabasesEndpoints,
   setupUnauthorizedDatabasesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import { useDatabaseQuery } from "./use-database-query";
 
 const TEST_DATABASE = createMockDatabase();

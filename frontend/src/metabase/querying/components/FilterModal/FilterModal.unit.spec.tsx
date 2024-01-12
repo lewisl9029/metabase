@@ -5,8 +5,8 @@ import {
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
-import { setupFieldsValuesEndpoints } from "support__/server-mocks";
+} from "__support__/ui";
+import { setupFieldsValuesEndpoints } from "__support__/server-mocks";
 import { SAMPLE_DB_FIELD_VALUES } from "metabase-types/api/mocks/presets";
 import * as Lib from "metabase-lib";
 import {

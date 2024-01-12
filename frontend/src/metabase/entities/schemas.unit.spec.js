@@ -1,6 +1,6 @@
 import fetchMock from "fetch-mock";
 
-import { getStore } from "support__/entities-store";
+import { getStore } from "__support__/entities-store";
 
 import Schemas from "metabase/entities/schemas";
 import Questions from "metabase/entities/questions";

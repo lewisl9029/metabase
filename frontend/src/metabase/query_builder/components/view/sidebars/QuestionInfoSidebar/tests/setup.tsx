@@ -9,15 +9,15 @@ import {
 } from "metabase-types/api/mocks";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 import { createMockState } from "metabase-types/store/mocks";
-import { setupEnterprisePlugins } from "support__/enterprise";
-import { mockSettings } from "support__/settings";
-import { createMockEntitiesState } from "support__/store";
-import { renderWithProviders, waitForLoaderToBeRemoved } from "support__/ui";
+import { setupEnterprisePlugins } from "__support__/enterprise";
+import { mockSettings } from "__support__/settings";
+import { createMockEntitiesState } from "__support__/store";
+import { renderWithProviders, waitForLoaderToBeRemoved } from "__support__/ui";
 import {
   setupCardEndpoints,
   setupRevisionsEndpoints,
   setupUsersEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import { QuestionInfoSidebar } from "../QuestionInfoSidebar";
 
 export interface SetupOpts {

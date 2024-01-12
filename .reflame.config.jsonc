@@ -56,7 +56,7 @@
     },
   ],
   "libraries": {
-    "support__": {
+    "__support__": {
       "sourceDirectory": "frontend/test/__support__",
       "exports": {
         "./metadata": "./metadata.ts"

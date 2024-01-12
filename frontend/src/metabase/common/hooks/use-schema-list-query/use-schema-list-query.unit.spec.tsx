@@ -4,13 +4,13 @@ import {
   PERMISSION_ERROR,
   setupDatabasesEndpoints,
   setupUnauthorizedDatabasesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import { useSchemaListQuery } from "./use-schema-list-query";
 
 const TEST_TABLE = createMockTable();

@@ -1,11 +1,11 @@
 import userEvent from "@testing-library/user-event";
 
-import { renderWithProviders, screen } from "support__/ui";
-import { createMockEntitiesState } from "support__/store";
+import { renderWithProviders, screen } from "__support__/ui";
+import { createMockEntitiesState } from "__support__/store";
 import {
   setupDatabasesEndpoints,
   setupFieldsValuesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 
 import { checkNotNull } from "metabase/lib/types";
 import { getMetadata } from "metabase/selectors/metadata";

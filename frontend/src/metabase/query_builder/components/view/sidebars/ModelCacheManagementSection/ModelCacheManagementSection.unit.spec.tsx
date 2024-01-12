@@ -2,8 +2,8 @@
 import moment from "moment-timezone";
 import fetchMock from "fetch-mock";
 
-import { createMockMetadata } from "support__/metadata";
-import { fireEvent, renderWithProviders, screen } from "support__/ui";
+import { createMockMetadata } from "__support__/metadata";
+import { fireEvent, renderWithProviders, screen } from "__support__/ui";
 
 import { checkNotNull } from "metabase/lib/types";
 import PersistedModels from "metabase/entities/persisted-models";

@@ -5,7 +5,7 @@ import {
   createMockFieldDimension,
   createMockTable,
 } from "metabase-types/api/mocks";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import { TYPE } from "metabase-lib/types/constants";
 
 const FIELD_ID = 1;

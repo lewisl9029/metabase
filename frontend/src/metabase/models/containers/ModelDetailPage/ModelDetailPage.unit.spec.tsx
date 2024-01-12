@@ -2,7 +2,7 @@ import { IndexRedirect, Redirect, Route } from "react-router";
 import fetchMock from "fetch-mock";
 import userEvent from "@testing-library/user-event";
 
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import {
   fireEvent,
   getIcon,
@@ -12,13 +12,13 @@ import {
   waitFor,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   setupModelActionsEndpoints,
   setupCardsEndpoints,
   setupCollectionsEndpoints,
   setupDatabasesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 
 import { checkNotNull } from "metabase/lib/types";
 import { ActionsApi } from "metabase/services";

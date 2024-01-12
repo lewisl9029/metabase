@@ -4,7 +4,7 @@ import {
   screen,
   waitForLoaderToBeRemoved,
   within,
-} from "support__/ui";
+} from "__support__/ui";
 import SearchApp from "metabase/search/containers/SearchApp";
 import { Route } from "metabase/hoc/Title";
 import {
@@ -13,7 +13,7 @@ import {
   setupSearchEndpoints,
   setupTableEndpoints,
   setupUserRecipientsEndpoint,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   createMockCollection,
   createMockDatabase,

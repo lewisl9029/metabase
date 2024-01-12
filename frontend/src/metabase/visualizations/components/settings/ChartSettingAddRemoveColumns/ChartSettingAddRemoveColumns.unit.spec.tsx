@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 
-import { renderWithProviders, screen, within } from "support__/ui";
+import { renderWithProviders, screen, within } from "__support__/ui";
 
 import { createMockTableColumnOrderSetting } from "metabase-types/api/mocks";
 import {

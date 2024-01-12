@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import { useState } from "react";
-import { renderWithProviders, screen } from "support__/ui";
+import { renderWithProviders, screen } from "__support__/ui";
 import type { UiParameter } from "metabase-lib/parameters/types";
 import { createMockUiParameter } from "metabase-lib/parameters/mock";
 import ParameterSidebar from "./ParameterSidebar";

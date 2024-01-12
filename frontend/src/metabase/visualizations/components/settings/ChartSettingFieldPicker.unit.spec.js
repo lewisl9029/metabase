@@ -1,5 +1,5 @@
 import { within } from "@testing-library/react";
-import { renderWithProviders, screen } from "support__/ui";
+import { renderWithProviders, screen } from "__support__/ui";
 
 // these tests use ChartSettings directly, but logic we're testing logic in ChartSettingFieldPicker
 import registerVisualizations from "metabase/visualizations/register";

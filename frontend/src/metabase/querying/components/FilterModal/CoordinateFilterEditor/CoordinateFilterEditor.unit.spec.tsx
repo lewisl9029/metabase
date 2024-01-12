@@ -3,7 +3,7 @@ import {
   renderWithProviders,
   screen,
   waitForElementToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import * as Lib from "metabase-lib";
 import { columnFinder, createQuery } from "metabase-lib/test-helpers";
 import { CoordinateFilterEditor } from "./CoordinateFilterEditor";

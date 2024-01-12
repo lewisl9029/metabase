@@ -9,7 +9,7 @@ import {
   PEOPLE,
   PRODUCTS,
 } from "metabase-types/api/mocks/presets";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import { createMockMetric, createMockSegment } from "metabase-types/api/mocks";
 import { checkNotNull } from "metabase/lib/types";
 

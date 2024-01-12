@@ -74,7 +74,7 @@ export const REVIEWS = {
 
 // Note: don't assign field values to the field object itself
 // Field values are not included in the field object in the API response
-// Please use `setupFieldValuesEndpoints` utility from `support__/server-mocks`
+// Please use `setupFieldValuesEndpoints` utility from `__support__/server-mocks`
 
 export const ORDER_QUANTITY_VALUES: FieldValuesResult = {
   field_id: ORDERS.QUANTITY,

@@ -5,7 +5,7 @@ import {
   waitFor,
   renderWithProviders,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 
 import {
   createMockDashboard,
@@ -22,7 +22,7 @@ import {
   setupCardsEndpoints,
   setupDatabasesEndpoints,
   setupSearchEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import { ActionSidebar } from "./ActionSidebar";
 
 const dashcard = createMockDashboardCard();

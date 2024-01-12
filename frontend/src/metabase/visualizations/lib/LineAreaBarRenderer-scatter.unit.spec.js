@@ -1,4 +1,4 @@
-import "support__/ui-mocks"; // included explicitly whereas with e2e tests it comes with support__/e2e
+import "__support__/ui-mocks"; // included explicitly whereas with e2e tests it comes with __support__/e2e
 import registerVisualizations from "metabase/visualizations/register";
 
 import {
@@ -8,7 +8,7 @@ import {
   getFormattedTooltips,
   createFixture,
   cleanupFixture,
-} from "support__/visualizations";
+} from "__support__/visualizations";
 
 registerVisualizations();
 

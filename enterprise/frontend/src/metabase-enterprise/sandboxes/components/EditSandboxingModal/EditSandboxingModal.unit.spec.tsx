@@ -1,12 +1,12 @@
 import userEvent from "@testing-library/user-event";
 import fetchMock from "fetch-mock";
 
-import { renderWithProviders, screen, waitFor } from "support__/ui";
+import { renderWithProviders, screen, waitFor } from "__support__/ui";
 import {
   setupCardsEndpoints,
   setupCollectionsEndpoints,
   setupDatabasesEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 
 import type { GroupTableAccessPolicy } from "metabase-types/api";
 import { createMockCard, createMockCollection } from "metabase-types/api/mocks";

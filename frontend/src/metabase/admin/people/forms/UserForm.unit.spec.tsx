@@ -1,9 +1,9 @@
 import fetchMock from "fetch-mock";
 
 import userEvent from "@testing-library/user-event";
-import { renderWithProviders, screen, waitFor } from "support__/ui";
-import { mockSettings } from "support__/settings";
-import { setupEnterprisePlugins } from "support__/enterprise";
+import { renderWithProviders, screen, waitFor } from "__support__/ui";
+import { mockSettings } from "__support__/settings";
+import { setupEnterprisePlugins } from "__support__/enterprise";
 
 import {
   createMockGroup,

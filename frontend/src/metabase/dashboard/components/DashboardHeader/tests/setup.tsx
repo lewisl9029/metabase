@@ -1,5 +1,5 @@
 import fetchMock from "fetch-mock";
-import { renderWithProviders, waitForLoaderToBeRemoved } from "support__/ui";
+import { renderWithProviders, waitForLoaderToBeRemoved } from "__support__/ui";
 
 import {
   createMockDashboard,
@@ -11,11 +11,11 @@ import {
   setupBookmarksEndpoints,
   setupCollectionsEndpoints,
   setupCollectionByIdEndpoint,
-} from "support__/server-mocks";
-import { setupEnterprisePlugins } from "support__/enterprise";
+} from "__support__/server-mocks";
+import { setupEnterprisePlugins } from "__support__/enterprise";
 import { createMockDashboardState } from "metabase-types/store/mocks";
 import { getDefaultTab } from "metabase/dashboard/actions";
-import { mockSettings } from "support__/settings";
+import { mockSettings } from "__support__/settings";
 import { DashboardHeader } from "../DashboardHeader";
 
 const DASHCARD = createMockDashboardCard();

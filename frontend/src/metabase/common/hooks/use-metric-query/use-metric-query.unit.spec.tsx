@@ -1,11 +1,11 @@
 import LoadingAndErrorWrapper from "metabase/components/LoadingAndErrorWrapper";
 import { createMockMetric } from "metabase-types/api/mocks";
-import { setupMetricsEndpoints } from "support__/server-mocks";
+import { setupMetricsEndpoints } from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import { useMetricQuery } from "./use-metric-query";
 
 const TEST_METRIC = createMockMetric();

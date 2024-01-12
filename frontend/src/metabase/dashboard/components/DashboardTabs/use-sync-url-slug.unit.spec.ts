@@ -1,6 +1,6 @@
 import type { Location } from "history";
 
-import { createMockLocation } from "support__/location";
+import { createMockLocation } from "__support__/location";
 
 import { parseSlug, getSlug } from "./use-sync-url-slug";
 

@@ -7,12 +7,12 @@ import { createMockDatabase, createMockTable } from "metabase-types/api/mocks";
 import {
   setupDatabaseEndpoints,
   setupTableEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import type Database from "metabase-lib/metadata/Database";
 import type Table from "metabase-lib/metadata/Table";
 import { useEntityQuery } from "./use-entity-query";

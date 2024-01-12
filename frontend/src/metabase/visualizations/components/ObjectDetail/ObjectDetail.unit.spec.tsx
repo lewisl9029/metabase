@@ -3,13 +3,13 @@ import {
   getBrokenUpTextMatcher,
   renderWithProviders,
   screen,
-} from "support__/ui";
-import { testDataset } from "support__/testDataset";
+} from "__support__/ui";
+import { testDataset } from "__support__/testDataset";
 import {
   setupActionsEndpoints,
   setupDatabasesEndpoints,
   setupTableEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import {
   createMockQueryBuilderState,
   createMockState,
@@ -22,7 +22,7 @@ import {
   createProductsTable,
   createReviewsTable,
 } from "metabase-types/api/mocks/presets";
-import { createMockEntitiesState } from "support__/store";
+import { createMockEntitiesState } from "__support__/store";
 import { checkNotNull } from "metabase/lib/types";
 
 import type { Field } from "metabase-types/api";

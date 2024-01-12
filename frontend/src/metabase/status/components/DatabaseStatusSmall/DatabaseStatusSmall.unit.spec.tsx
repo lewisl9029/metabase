@@ -3,8 +3,8 @@ import { getMetadata } from "metabase/selectors/metadata";
 import type { Database } from "metabase-types/api";
 import { createMockDatabase } from "metabase-types/api/mocks";
 import { createMockState } from "metabase-types/store/mocks";
-import { renderWithProviders, screen } from "support__/ui";
-import { createMockEntitiesState } from "support__/store";
+import { renderWithProviders, screen } from "__support__/ui";
+import { createMockEntitiesState } from "__support__/store";
 import DatabaseStatusSmall from "./DatabaseStatusSmall";
 
 interface SetupOpts {

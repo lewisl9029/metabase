@@ -6,7 +6,7 @@ import {
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 
 import type { Collection } from "metabase-types/api";
 import { createMockCollection } from "metabase-types/api/mocks";

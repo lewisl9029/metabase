@@ -4,8 +4,8 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
-import { setupFieldSearchValuesEndpoints } from "support__/server-mocks";
+} from "__support__/ui";
+import { setupFieldSearchValuesEndpoints } from "__support__/server-mocks";
 import Fields from "metabase/entities/fields";
 
 import { checkNotNull } from "metabase/lib/types";

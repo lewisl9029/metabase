@@ -6,12 +6,12 @@ import {
   createMockSearchResult,
   createMockSearchResults,
 } from "metabase-types/api/mocks";
-import { setupSearchEndpoints } from "support__/server-mocks";
+import { setupSearchEndpoints } from "__support__/server-mocks";
 import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import { checkNotNull } from "metabase/lib/types";
 import { useSearchListQuery } from "./use-search-list-query";
 

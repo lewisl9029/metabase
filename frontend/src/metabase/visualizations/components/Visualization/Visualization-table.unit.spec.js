@@ -1,7 +1,7 @@
-import { renderWithProviders, screen } from "support__/ui";
+import { renderWithProviders, screen } from "__support__/ui";
 import Visualization from "metabase/visualizations/components/Visualization";
 import registerVisualizations from "metabase/visualizations/register";
-import { NumberColumn } from "support__/visualizations";
+import { NumberColumn } from "__support__/visualizations";
 
 registerVisualizations();
 

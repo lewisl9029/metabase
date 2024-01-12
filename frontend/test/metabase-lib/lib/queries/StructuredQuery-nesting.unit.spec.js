@@ -8,7 +8,7 @@ import {
   PEOPLE_ID,
   PRODUCTS_ID,
 } from "metabase-types/api/mocks/presets";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 
 const setup = ({ tables = [] } = {}) => {
   const metadata = createMockMetadata({

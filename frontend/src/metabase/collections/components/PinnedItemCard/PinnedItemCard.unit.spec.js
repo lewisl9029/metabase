@@ -1,7 +1,7 @@
 import userEvent from "@testing-library/user-event";
 import { Route } from "react-router";
 
-import { getIcon, renderWithProviders, screen } from "support__/ui";
+import { getIcon, renderWithProviders, screen } from "__support__/ui";
 
 import PinnedItemCard from "./PinnedItemCard";
 

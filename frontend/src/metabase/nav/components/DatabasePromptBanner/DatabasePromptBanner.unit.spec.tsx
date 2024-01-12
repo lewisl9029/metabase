@@ -1,7 +1,7 @@
 import { Route } from "react-router";
 
 import fetchMock from "fetch-mock";
-import { renderWithProviders, screen, waitFor } from "support__/ui";
+import { renderWithProviders, screen, waitFor } from "__support__/ui";
 import { createMockState } from "metabase-types/store/mocks";
 import {
   createMockDatabase,
@@ -10,9 +10,9 @@ import {
 } from "metabase-types/api/mocks";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 
-import { setupDatabasesEndpoints } from "support__/server-mocks";
-import { setupEnterpriseTest } from "support__/enterprise";
-import { mockSettings } from "support__/settings";
+import { setupDatabasesEndpoints } from "__support__/server-mocks";
+import { setupEnterpriseTest } from "__support__/enterprise";
+import { mockSettings } from "__support__/settings";
 
 import { DatabasePromptBanner } from "./DatabasePromptBanner";
 

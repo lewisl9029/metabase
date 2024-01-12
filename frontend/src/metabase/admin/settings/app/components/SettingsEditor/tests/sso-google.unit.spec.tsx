@@ -1,11 +1,11 @@
 import "metabase/plugins/builtin";
-import { screen } from "support__/ui";
+import { screen } from "__support__/ui";
 import {
   createMockGroup,
   createMockSettings,
   createMockTokenFeatures,
 } from "metabase-types/api/mocks";
-import { setupGroupsEndpoint } from "support__/server-mocks";
+import { setupGroupsEndpoint } from "__support__/server-mocks";
 import type { SetupOpts } from "./setup";
 import { setup } from "./setup";
 

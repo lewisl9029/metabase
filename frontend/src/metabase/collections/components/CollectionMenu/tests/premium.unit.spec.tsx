@@ -3,7 +3,7 @@ import {
   createMockCollection,
   createMockTokenFeatures,
 } from "metabase-types/api/mocks";
-import { getIcon, queryIcon, screen } from "support__/ui";
+import { getIcon, queryIcon, screen } from "__support__/ui";
 import type { SetupOpts } from "./setup";
 import { setup } from "./setup";
 

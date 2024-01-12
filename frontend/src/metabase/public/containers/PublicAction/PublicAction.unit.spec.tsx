@@ -7,7 +7,7 @@ import {
   screen,
   waitFor,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 
 import type {
   ParametersForActionExecution,

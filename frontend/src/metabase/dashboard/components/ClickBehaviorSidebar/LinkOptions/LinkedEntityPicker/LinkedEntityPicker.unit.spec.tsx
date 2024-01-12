@@ -23,9 +23,9 @@ import {
   setupCollectionItemsEndpoint,
   setupCollectionsEndpoints,
   setupSearchEndpoints,
-} from "support__/server-mocks";
-import { renderWithProviders, screen } from "support__/ui";
-import { getNextId } from "support__/utils";
+} from "__support__/server-mocks";
+import { renderWithProviders, screen } from "__support__/ui";
+import { getNextId } from "__support__/utils";
 import { LinkedEntityPicker } from "./LinkedEntityPicker";
 
 const ROOT_COLLECTION = createMockCollection({

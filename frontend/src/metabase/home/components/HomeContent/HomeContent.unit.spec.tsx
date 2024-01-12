@@ -18,13 +18,13 @@ import {
   renderWithProviders,
   screen,
   waitForLoaderToBeRemoved,
-} from "support__/ui";
+} from "__support__/ui";
 import {
   setupDatabaseCandidatesEndpoint,
   setupDatabasesEndpoints,
   setupPopularItemsEndpoints,
   setupRecentViewsEndpoints,
-} from "support__/server-mocks";
+} from "__support__/server-mocks";
 import { HomeContent } from "./HomeContent";
 
 interface SetupOpts {

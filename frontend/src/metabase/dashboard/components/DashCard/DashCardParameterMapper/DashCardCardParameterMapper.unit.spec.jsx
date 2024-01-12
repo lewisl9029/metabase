@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { getIcon } from "support__/ui";
+import { getIcon } from "__support__/ui";
 
 import {
   createMockCard,
@@ -17,7 +17,7 @@ import {
 import { getMetadata } from "metabase/selectors/metadata";
 import { createSampleDatabase } from "metabase-types/api/mocks/presets";
 import { createMockState } from "metabase-types/store/mocks";
-import { createMockEntitiesState } from "support__/store";
+import { createMockEntitiesState } from "__support__/store";
 
 import { DashCardCardParameterMapper } from "./DashCardCardParameterMapper";
 

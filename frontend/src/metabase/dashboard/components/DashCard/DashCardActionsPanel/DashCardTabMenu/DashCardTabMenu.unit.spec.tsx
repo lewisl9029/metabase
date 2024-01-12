@@ -9,7 +9,7 @@ import {
   createMockState,
 } from "metabase-types/store/mocks";
 import { getDefaultTab } from "metabase/dashboard/actions";
-import { renderWithProviders, screen, waitFor, within } from "support__/ui";
+import { renderWithProviders, screen, waitFor, within } from "__support__/ui";
 import { DashCardTabMenu } from "./DashCardTabMenu";
 
 const DASHCARD = createMockDashboardCard();

@@ -3,7 +3,7 @@ import {
   createMockDatabase,
   createMockQueryAction,
 } from "metabase-types/api/mocks";
-import { createMockMetadata } from "support__/metadata";
+import { createMockMetadata } from "__support__/metadata";
 import { canRunAction } from "./utils";
 
 interface SetupOpts {
