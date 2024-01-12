@@ -1,6 +1,6 @@
 import L from "leaflet";
 import { t } from "ttag";
-import d3 from "d3";
+import * as d3 from "d3";
 
 import { color } from "metabase/lib/colors";
 import { isNumeric, isMetric } from "metabase-lib/types/utils/isa";

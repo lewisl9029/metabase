@@ -1,0 +1,2 @@
+var window=global;var $CLJS=require("./cljs_env.js");require("./cljs.core.js");require("./metabase.lib.dispatch.js");require("./metabase.lib.metadata.js");require("./metabase.lib.options.js");require("./metabase.lib.schema.js");require("./metabase.lib.schema.common.js");require("./metabase.lib.schema.join.js");require("./metabase.lib.util.js");require("./metabase.util.malli.js");
+'use strict';$CLJS.$Y=new $CLJS.M("metabase.lib.join","join-alias","metabase.lib.join/join-alias",1166233023);

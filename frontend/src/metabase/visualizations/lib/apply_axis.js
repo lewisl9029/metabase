@@ -1,7 +1,7 @@
 /// functions for "applying" axes to charts, whatever that means.
 
 import _ from "underscore";
-import d3 from "d3";
+import * as d3 from "d3";
 import dc from "dc";
 // eslint-disable-next-line no-restricted-imports -- deprecated usage
 import moment from "moment-timezone";

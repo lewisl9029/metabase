@@ -1,0 +1,2 @@
+var window=global;var $CLJS=require("./cljs_env.js");require("./cljs.core.js");require("./metabase.lib.metadata.protocols.js");require("./metabase.lib.schema.js");require("./metabase.lib.schema.common.js");require("./metabase.lib.schema.id.js");require("./metabase.lib.schema.metadata.js");require("./metabase.lib.util.js");require("./metabase.util.malli.js");
+'use strict';

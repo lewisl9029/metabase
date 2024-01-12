@@ -1,0 +1,2 @@
+var window=global;var $CLJS=require("./cljs_env.js");require("./cljs.core.js");
+'use strict';$CLJS.Vr=function(a,b,c){return new $CLJS.pe(null,function(){var d=$CLJS.y(c);if(d){var e=$CLJS.cf(a,d);return a===$CLJS.D(e)?$CLJS.ge(e,$CLJS.Vr(a,b,$CLJS.df(b,d))):null}return null},null,null)};

@@ -1,0 +1,2 @@
+var window=global;var $CLJS=require("./cljs_env.js");require("./cljs.core.js");
+'use strict';var Y3=function(a){a=a+1023<<20&2146435072;var b=new ArrayBuffer(8);new Float64Array(b);b=new Uint32Array(b);b[yra]=0;b[X3]=a};var Z3,$3=new ArrayBuffer(4),zra=new Uint32Array($3),Ara=new Uint8Array($3);zra[0]=857870592;var X3=(Z3=0===Ara[0])?1:0,yra=1-X3,a4=new ArrayBuffer(16),b4=new Float64Array(a4),Bra=new Uint8Array(a4);b4[0]=0;b4[1]=0;Bra[Z3?15:8]=-128;Y3(512);Y3(-512);

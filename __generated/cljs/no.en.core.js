@@ -1,0 +1,2 @@
+var window=global;var $CLJS=require("./cljs_env.js");require("./cljs.core.js");require("./clojure.string.js");require("./cljs.reader.js");
+'use strict';var y1=function(a){return Math.pow(1024,a)};$CLJS.Kg("TKGMYZEBP".split(""),[y1(4),y1(1),y1(3),y1(2),y1(8),y1(7),y1(6),y1(0),y1(5)]);

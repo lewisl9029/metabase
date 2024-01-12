@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Component } from "react";
 import { t } from "ttag";
-import d3 from "d3";
+import * as d3 from "d3";
 import ss from "simple-statistics";
 import _ from "underscore";
 import Color from "color";

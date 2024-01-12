@@ -3,7 +3,7 @@ import { Component } from "react";
 import { t } from "ttag";
 import _ from "underscore";
 import cx from "classnames";
-import d3 from "d3";
+import * as d3 from "d3";
 import L from "leaflet";
 import { LatitudeLongitudeError } from "metabase/visualizations/lib/errors";
 import { hasLatitudeAndLongitudeColumns } from "metabase-lib/types/utils/isa";

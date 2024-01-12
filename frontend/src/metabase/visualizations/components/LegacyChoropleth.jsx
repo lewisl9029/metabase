@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Component } from "react";
 
-import d3 from "d3";
+import * as d3 from "d3";
 import cx from "classnames";
 import { isSameSeries } from "metabase/visualizations/lib/utils";
 

@@ -1,4 +1,4 @@
-import d3, { max, min } from "d3";
+import * as d3 from "d3";
 import {
   scaleBand,
   scaleLinear,
@@ -99,8 +99,8 @@ const calculateYDomain = (
       series => series.stackedData ?? series.data,
     )
     .map(datum => getY(datum));
-  const minValue = min(values);
-  const maxValue = max(values);
+  const minValue = d3.min(values);
+  const maxValue = d3.max(values);
 
   return [
     Math.min(0, minValue, minValueSetting ?? 0, goalValue ?? 0),

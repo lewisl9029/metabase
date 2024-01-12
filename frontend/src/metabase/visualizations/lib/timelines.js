@@ -1,4 +1,4 @@
-import d3 from "d3";
+import * as d3 from "d3";
 import { Icons } from "metabase/core/components/Icon";
 
 const ICON_X = -8;
