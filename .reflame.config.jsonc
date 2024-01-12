@@ -56,6 +56,12 @@
     },
   ],
   "libraries": {
+    "__support__": {
+      "sourceDirectory": "frontend/test/__support__",
+      "exports": {
+        "./metadata/*": "./metadata/*"
+      }
+    },
     "assets": {
       "sourceDirectory": "resources/frontend_client/app/assets",
       "exports": {
@@ -75,6 +81,9 @@
   // Including dev-time dependencies that run in node can result in deploy failures and poor
   // performance.
   "npmPackages": {
+    "@storybook/addons": "^6.5.16",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/client-api": "^6.5.16",
     "dayjs": {
       "entryPoints": [
         "/plugin/updateLocale",
@@ -132,4 +141,7 @@
     // // Specify npm packages in the same format as you would with package.json
     // "framer-motion": "^6.2.8",
   },
+  "npmPackageOverrides": {
+    "ttag": "@lewisl9029/ttag@1.8.6-2"
+  }
 }
