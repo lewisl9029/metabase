@@ -40,7 +40,7 @@ import { syncHistoryWithStore } from "react-router-redux";
 
 // drag and drop
 import HTML5Backend from "react-dnd-html5-backend";
-import { DragDropContextProvider } from "react-dnd";
+import { DndProvider } from "react-dnd";
 import { ThemeProvider } from "metabase/ui";
 import { refreshSiteSettings } from "metabase/redux/settings";
 import { initializeEmbedding } from "metabase/lib/embed";
@@ -78,12 +78,12 @@ function _init(reducers, getRoutes, callback) {
   ReactDOM.render(
     <Provider store={store} ref={ref => (root = ref)}>
       <EmotionCacheProvider>
-        <DragDropContextProvider backend={HTML5Backend} context={{ window }}>
+        <DndProvider backend={HTML5Backend} context={{ window }}>
           <ThemeProvider>
             <GlobalStyles />
             <Router history={history}>{routes}</Router>
           </ThemeProvider>
-        </DragDropContextProvider>
+        </DndProvider>
       </EmotionCacheProvider>
     </Provider>,
     document.getElementById("root"),
