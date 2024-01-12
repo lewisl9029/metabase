@@ -142,6 +142,7 @@
     // "framer-motion": "^6.2.8",
   },
   "npmPackageOverrides": {
-    "ttag": "npm:@lewisl9029/ttag@1.8.6-2"
+    // FIXME: overrides seem to result in missing entry points?
+    "ttag": "npm:@lewisl9029/ttag@1.8.6-3"
   }
 }
