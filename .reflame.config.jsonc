@@ -22,6 +22,9 @@
   "nodejsCompatibility": {
     "packageJson": true,
   },
+  "storybookCompatibility": {
+    "testStories": true,
+  },
   "specifierTransforms": [
     {
       "from": "/metabase/",
