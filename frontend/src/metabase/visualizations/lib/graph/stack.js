@@ -1,4 +1,4 @@
-import d3 from "d3";
+import * as d3 from "d3";
 
 // d3.layout.stack applies offsets only to the first value within a group
 // this wrapper does that to each value to stack positive and negative series separately

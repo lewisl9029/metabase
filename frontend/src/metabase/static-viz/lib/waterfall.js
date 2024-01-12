@@ -1,4 +1,4 @@
-import d3 from "d3";
+import * as d3 from "d3";
 import { formatDate } from "./dates";
 
 const WATERFALL_TOTAL = "Total";

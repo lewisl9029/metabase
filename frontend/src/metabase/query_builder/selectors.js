@@ -1,6 +1,6 @@
 /*eslint no-use-before-define: "error"*/
 
-import d3 from "d3";
+import * as d3 from "d3";
 import { createSelector } from "@reduxjs/toolkit";
 import _ from "underscore";
 import { getIn, merge, updateIn } from "icepick";

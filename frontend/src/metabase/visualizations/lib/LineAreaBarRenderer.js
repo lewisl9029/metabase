@@ -1,5 +1,5 @@
 import crossfilter from "crossfilter";
-import d3 from "d3";
+import * as d3 from "d3";
 import dc from "dc";
 import _ from "underscore";
 import { assocIn, updateIn } from "icepick";
