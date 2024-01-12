@@ -10,14 +10,14 @@
   "description": "A new Reflame app.",
   // Reflame will watch this directory for your React source code and deploy changes
   // instantly. 
-  "sourceDirectory": "frontend/src",
+  "sourceDirectory": "frontend",
   // Reflame will use this to keep your app up to date as we make improvements. 
   "foundation": {
     "name": "ts-react",
     "version": 2,
   },
   "scripts": [
-    "/metabase/app-main.js"
+    "/src/metabase/app-main.js"
   ],
   "nodejsCompatibility": {
     "packageJson": true,
@@ -27,31 +27,31 @@
   },
   "specifierTransforms": [
     {
-      "from": "/metabase/",
+      "from": "/src/metabase/",
       "to": "metabase/"
     },
     {
-      "from": "/metabase/dev-noop.js",
+      "from": "/src/metabase/dev-noop.js",
       "to": "metabase-dev"
     },
     {
-      "from": "/metabase-lib/",
+      "from": "/src/metabase-lib/",
       "to": "metabase-lib/"
     },
     {
-      "from": "/metabase-lib/index.ts",
+      "from": "/src/metabase-lib/index.ts",
       "to": "metabase-lib"
     },
     {
-      "from": "/metabase-types/",
+      "from": "/src/metabase-types/",
       "to": "metabase-types/"
     },
     {
-      "from": "/metabase/lib/noop.js",
+      "from": "/src/metabase/lib/noop.js",
       "to": "ee-plugins"
     },
     {
-      "from": "/metabase/lib/noop.js",
+      "from": "/src/metabase/lib/noop.js",
       "to": "ee-overrides"
     },
   ],
