@@ -54,14 +54,12 @@
       "from": "/src/metabase/lib/noop.js",
       "to": "ee-overrides"
     },
+    {
+      "from": "/test/__support__/",
+      "to": "__support__/"
+    },
   ],
   "libraries": {
-    "__support__": {
-      "sourceDirectory": "frontend/test/__support__",
-      "exports": {
-        "./metadata": "./metadata.ts"
-      }
-    },
     "assets": {
       "sourceDirectory": "resources/frontend_client/app/assets",
       "exports": {
